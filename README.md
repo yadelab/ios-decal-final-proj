@@ -9,7 +9,8 @@ WeatherGuru gives you a list of suggested activities within a specified
 location based on that location's weather.
 
 ## Features
-* Ability to use current location or specicify a different location for upcoming travel
+* Ability to use current location or specify a different 
+location for upcoming travel
 * Scroll through list of suggested activities
 
 ## Control Flow
