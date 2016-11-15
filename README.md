@@ -26,5 +26,4 @@ location for upcoming travel
 * ActivitiesListTableView
 
 ### Controller
-* SplashViewController
 * ActivitiesListTableViewController
