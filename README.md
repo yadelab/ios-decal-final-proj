@@ -14,8 +14,7 @@ location for upcoming travel
 * Scroll through list of suggested activities
 
 ## Control Flow
-* User is initially presented with splash screen
-* User will then be asked for permission for their current location 
+* User will be asked for permission for their current location 
 (They may opt to manually enter a different location instead)
 * They will be presented with list of suggested activities based on the weather
 
@@ -24,7 +23,6 @@ location for upcoming travel
 * AppDelegate.swift
 
 ### View
-* SplashView
 * ActivitiesListTableView
 
 ### Controller
