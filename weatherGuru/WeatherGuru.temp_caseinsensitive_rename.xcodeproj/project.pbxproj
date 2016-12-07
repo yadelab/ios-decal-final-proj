@@ -45,7 +45,7 @@
 		E6D4E6D81DF4F4C8001D5941 = {
 			isa = PBXGroup;
 			children = (
-				E6D4E6E31DF4F4C8001D5941 /* weatherGuru */,
+				E6D4E6E31DF4F4C8001D5941 /* WeatherGuru */,
 				E6D4E6E21DF4F4C8001D5941 /* Products */,
 				E6D4E6FB1DF50296001D5941 /* Frameworks */,
 			);
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E6D4E6E31DF4F4C8001D5941 /* weatherGuru */ = {
+		E6D4E6E31DF4F4C8001D5941 /* WeatherGuru */ = {
 			isa = PBXGroup;
 			children = (
 				E6D4E6E41DF4F4C8001D5941 /* AppDelegate.swift */,
@@ -71,6 +71,7 @@
 				E6D4E6F91DF4F565001D5941 /* weather.jpg */,
 				E6D4E6EB1DF4F4C8001D5941 /* weatherGuru.xcdatamodeld */,
 			);
+			name = WeatherGuru;
 			path = weatherGuru;
 			sourceTree = "<group>";
 		};
@@ -118,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E6D4E6DC1DF4F4C8001D5941 /* Build configuration list for PBXProject "weatherGuru" */;
+			buildConfigurationList = E6D4E6DC1DF4F4C8001D5941 /* Build configuration list for PBXProject "WeatherGuru.temp_caseinsensitive_rename" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -301,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6D4E6DC1DF4F4C8001D5941 /* Build configuration list for PBXProject "weatherGuru" */ = {
+		E6D4E6DC1DF4F4C8001D5941 /* Build configuration list for PBXProject "WeatherGuru.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6D4E6F41DF4F4C8001D5941 /* Debug */,
@@ -317,6 +318,7 @@
 				E6D4E6F81DF4F4C8001D5941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

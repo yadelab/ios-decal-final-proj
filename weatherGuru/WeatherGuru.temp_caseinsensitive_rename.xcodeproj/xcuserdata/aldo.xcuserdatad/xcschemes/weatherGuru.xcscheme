@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A2396561DCC5C0100A971BC"
-               BuildableName = "WeatherGuru.app"
-               BlueprintName = "WeatherGuru"
-               ReferencedContainer = "container:WeatherGuru.xcodeproj">
+               BlueprintIdentifier = "E6D4E6E01DF4F4C8001D5941"
+               BuildableName = "weatherGuru.app"
+               BlueprintName = "weatherGuru"
+               ReferencedContainer = "container:weatherGuru.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A23966A1DCC5C0200A971BC"
-               BuildableName = "WeatherGuruTests.xctest"
-               BlueprintName = "WeatherGuruTests"
-               ReferencedContainer = "container:WeatherGuru.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A2396751DCC5C0200A971BC"
-               BuildableName = "WeatherGuruUITests.xctest"
-               BlueprintName = "WeatherGuruUITests"
-               ReferencedContainer = "container:WeatherGuru.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A2396561DCC5C0100A971BC"
-            BuildableName = "WeatherGuru.app"
-            BlueprintName = "WeatherGuru"
-            ReferencedContainer = "container:WeatherGuru.xcodeproj">
+            BlueprintIdentifier = "E6D4E6E01DF4F4C8001D5941"
+            BuildableName = "weatherGuru.app"
+            BlueprintName = "weatherGuru"
+            ReferencedContainer = "container:weatherGuru.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A2396561DCC5C0100A971BC"
-            BuildableName = "WeatherGuru.app"
-            BlueprintName = "WeatherGuru"
-            ReferencedContainer = "container:WeatherGuru.xcodeproj">
+            BlueprintIdentifier = "E6D4E6E01DF4F4C8001D5941"
+            BuildableName = "weatherGuru.app"
+            BlueprintName = "weatherGuru"
+            ReferencedContainer = "container:weatherGuru.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A2396561DCC5C0100A971BC"
-            BuildableName = "WeatherGuru.app"
-            BlueprintName = "WeatherGuru"
-            ReferencedContainer = "container:WeatherGuru.xcodeproj">
+            BlueprintIdentifier = "E6D4E6E01DF4F4C8001D5941"
+            BuildableName = "weatherGuru.app"
+            BlueprintName = "weatherGuru"
+            ReferencedContainer = "container:weatherGuru.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
