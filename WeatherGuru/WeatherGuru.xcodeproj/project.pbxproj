@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B95D6EF26070002B9415E61 /* Pods_weatherGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A6603B76452C69716FB621 /* Pods_weatherGuru.framework */; };
+		6A8EA70A1DF9342500BD9C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4E6E61DF4F4C8001D5941 /* ViewController.swift */; };
+		E6D4E6E51DF4F4C8001D5941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4E6E41DF4F4C8001D5941 /* AppDelegate.swift */; };
+		E6D4E6EA1DF4F4C8001D5941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D4E6E81DF4F4C8001D5941 /* Main.storyboard */; };
+		E6D4E6ED1DF4F4C8001D5941 /* weatherGuru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6D4E6EB1DF4F4C8001D5941 /* weatherGuru.xcdatamodeld */; };
+		E6D4E6EF1DF4F4C8001D5941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D4E6EE1DF4F4C8001D5941 /* Assets.xcassets */; };
+		E6D4E6F21DF4F4C8001D5941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D4E6F01DF4F4C8001D5941 /* LaunchScreen.storyboard */; };
+		E6D4E6FA1DF4F565001D5941 /* weather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6D4E6F91DF4F565001D5941 /* weather.jpg */; };
+		E6D4E6FD1DF50296001D5941 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D4E6FC1DF50296001D5941 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17A6603B76452C69716FB621 /* Pods_weatherGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weatherGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7E8158D8A6EC99868AB73B /* Pods-weatherGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherGuru.release.xcconfig"; path = "Pods/Target Support Files/Pods-weatherGuru/Pods-weatherGuru.release.xcconfig"; sourceTree = "<group>"; };
+		D8156F6C657ED8B4311BEDE8 /* Pods-weatherGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherGuru.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weatherGuru/Pods-weatherGuru.debug.xcconfig"; sourceTree = "<group>"; };
+		E6D4E6E11DF4F4C8001D5941 /* weatherGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D4E6E41DF4F4C8001D5941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6D4E6E61DF4F4C8001D5941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6D4E6E91DF4F4C8001D5941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6D4E6EC1DF4F4C8001D5941 /* weatherGuru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weatherGuru.xcdatamodel; sourceTree = "<group>"; };
+		E6D4E6EE1DF4F4C8001D5941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6D4E6F11DF4F4C8001D5941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6D4E6F31DF4F4C8001D5941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D4E6F91DF4F565001D5941 /* weather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather.jpg; sourceTree = "<group>"; };
+		E6D4E6FC1DF50296001D5941 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D4E6DE1DF4F4C8001D5941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D4E6FD1DF50296001D5941 /* CoreLocation.framework in Frameworks */,
+				2B95D6EF26070002B9415E61 /* Pods_weatherGuru.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6D4E6D81DF4F4C8001D5941 = {
+			isa = PBXGroup;
+			children = (
+				E6D4E6E31DF4F4C8001D5941 /* WeatherGuru */,
+				E6D4E6E21DF4F4C8001D5941 /* Products */,
+				E6D4E6FB1DF50296001D5941 /* Frameworks */,
+				F9820D3C2E5BC37F85E1C87F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D4E6E21DF4F4C8001D5941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D4E6E11DF4F4C8001D5941 /* weatherGuru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D4E6E31DF4F4C8001D5941 /* WeatherGuru */ = {
+			isa = PBXGroup;
+			children = (
+				E6D4E6E41DF4F4C8001D5941 /* AppDelegate.swift */,
+				E6D4E6E61DF4F4C8001D5941 /* ViewController.swift */,
+				E6D4E6E81DF4F4C8001D5941 /* Main.storyboard */,
+				E6D4E6EE1DF4F4C8001D5941 /* Assets.xcassets */,
+				E6D4E6F01DF4F4C8001D5941 /* LaunchScreen.storyboard */,
+				E6D4E6F31DF4F4C8001D5941 /* Info.plist */,
+				E6D4E6F91DF4F565001D5941 /* weather.jpg */,
+				E6D4E6EB1DF4F4C8001D5941 /* weatherGuru.xcdatamodeld */,
+			);
+			name = WeatherGuru;
+			path = weatherGuru;
+			sourceTree = "<group>";
+		};
+		E6D4E6FB1DF50296001D5941 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6D4E6FC1DF50296001D5941 /* CoreLocation.framework */,
+				17A6603B76452C69716FB621 /* Pods_weatherGuru.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9820D3C2E5BC37F85E1C87F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8156F6C657ED8B4311BEDE8 /* Pods-weatherGuru.debug.xcconfig */,
+				4C7E8158D8A6EC99868AB73B /* Pods-weatherGuru.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D4E6E01DF4F4C8001D5941 /* weatherGuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D4E6F61DF4F4C8001D5941 /* Build configuration list for PBXNativeTarget "weatherGuru" */;
+			buildPhases = (
+				990207956272CCEE65D513FF /* [CP] Check Pods Manifest.lock */,
+				E6D4E6DD1DF4F4C8001D5941 /* Sources */,
+				E6D4E6DE1DF4F4C8001D5941 /* Frameworks */,
+				E6D4E6DF1DF4F4C8001D5941 /* Resources */,
+				F60A56BE80F566A2AC8A31F9 /* [CP] Embed Pods Frameworks */,
+				6A24529D09A9CC35BB7C249A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weatherGuru;
+			productName = weatherGuru;
+			productReference = E6D4E6E11DF4F4C8001D5941 /* weatherGuru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D4E6D91DF4F4C8001D5941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Yadel;
+				TargetAttributes = {
+					E6D4E6E01DF4F4C8001D5941 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6D4E6DC1DF4F4C8001D5941 /* Build configuration list for PBXProject "WeatherGuru" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6D4E6D81DF4F4C8001D5941;
+			productRefGroup = E6D4E6E21DF4F4C8001D5941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D4E6E01DF4F4C8001D5941 /* weatherGuru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D4E6DF1DF4F4C8001D5941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D4E6F21DF4F4C8001D5941 /* LaunchScreen.storyboard in Resources */,
+				E6D4E6EF1DF4F4C8001D5941 /* Assets.xcassets in Resources */,
+				E6D4E6FA1DF4F565001D5941 /* weather.jpg in Resources */,
+				E6D4E6EA1DF4F4C8001D5941 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A24529D09A9CC35BB7C249A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weatherGuru/Pods-weatherGuru-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990207956272CCEE65D513FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F60A56BE80F566A2AC8A31F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weatherGuru/Pods-weatherGuru-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D4E6DD1DF4F4C8001D5941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8EA70A1DF9342500BD9C08 /* ViewController.swift in Sources */,
+				E6D4E6ED1DF4F4C8001D5941 /* weatherGuru.xcdatamodeld in Sources */,
+				E6D4E6E51DF4F4C8001D5941 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6D4E6E81DF4F4C8001D5941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D4E6E91DF4F4C8001D5941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6D4E6F01DF4F4C8001D5941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D4E6F11DF4F4C8001D5941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6D4E6F41DF4F4C8001D5941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6D4E6F51DF4F4C8001D5941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6D4E6F71DF4F4C8001D5941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8156F6C657ED8B4311BEDE8 /* Pods-weatherGuru.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weatherGuru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yadel.weatherGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E6D4E6F81DF4F4C8001D5941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7E8158D8A6EC99868AB73B /* Pods-weatherGuru.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weatherGuru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yadel.weatherGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D4E6DC1DF4F4C8001D5941 /* Build configuration list for PBXProject "WeatherGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D4E6F41DF4F4C8001D5941 /* Debug */,
+				E6D4E6F51DF4F4C8001D5941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D4E6F61DF4F4C8001D5941 /* Build configuration list for PBXNativeTarget "weatherGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D4E6F71DF4F4C8001D5941 /* Debug */,
+				E6D4E6F81DF4F4C8001D5941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6D4E6EB1DF4F4C8001D5941 /* weatherGuru.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6D4E6EC1DF4F4C8001D5941 /* weatherGuru.xcdatamodel */,
+			);
+			currentVersion = E6D4E6EC1DF4F4C8001D5941 /* weatherGuru.xcdatamodel */;
+			path = weatherGuru.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6D4E6D91DF4F4C8001D5941 /* Project object */;
+}

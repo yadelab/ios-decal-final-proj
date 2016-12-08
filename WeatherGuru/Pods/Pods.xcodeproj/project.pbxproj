@@ -1,0 +1,1174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001C1DE7F664CEB3F1E83CAD39A0A058 /* FileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F6663F5DA6DC10640B195A872F2B45 /* FileApp.swift */; };
+		0030BB054EBEF14AD5FF75EA8B1DA8B5 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BAE1486D32117D096F09540A4EDB3A /* Calendars.swift */; };
+		02CA53BFDC4C62DAF8FC688F7B45EA68 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF66DAF2CACFB9A7EF53E086E60E5B /* Youtube.swift */; };
+		072CDE1DB212273822C15B4116186343 /* Waze.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39276714A0E407839FAE5A62E2D7D67 /* Waze.swift */; };
+		0A8086D8CEBF077A7C1184CF20D437C2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32D03BE95363524CE87BC9F3A414906 /* AppStore.swift */; };
+		0B6BEBA2CFE80BD009DE54343E457CEF /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B92FEB3A7A3464BE13DC85A10AB7E3 /* Spark.swift */; };
+		0B9E051B5A0225D619A840FA79E69F8E /* Nunl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7771602433B9323C035911CC01297D2 /* Nunl.swift */; };
+		0C787F79022030AC2A2C32D4DAB54FE6 /* Everypost.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5CEAB6FBDC375C1F09DCC667EE11B1 /* Everypost.swift */; };
+		149B7C7374AC89FB1B4C1064C3D12AB2 /* ExternalApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F274E3553C78F0FE29F40041B5DA2F2 /* ExternalApplication.swift */; };
+		18089F9830EA5DAA353DF25CE09D69D4 /* GoogleDocs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308924BE42260CF8CE313C43BB7E634 /* GoogleDocs.swift */; };
+		19D655DE4472BED4513EB7170E2ABB33 /* Vox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D658E0D10F3FF3281B6B6421DA04EF /* Vox.swift */; };
+		19F22EA382F69FF22BC6DBB66F5DBFE8 /* Trello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B7ACB095A4E067D93A0EA63A34F19 /* Trello.swift */; };
+		1ABCDD28A045ECA26065D73265120EA9 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8A921D3126BFB254CFD5AC838815D /* Instagram.swift */; };
+		1BBE363EBBD1C10CDA624B8E6D345144 /* Snapchat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F99D91C9B95FEA3787CB888E9160FB /* Snapchat.swift */; };
+		1C6CC179D7E66D293DA5CDEDC664D54E /* Whyd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5644D2554ACBC8F8313F4320F95C50 /* Whyd.swift */; };
+		1C8727898ED517C72A255ED140BBD538 /* Radium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB549050A7EE8B2D30D9C7AADA4F4C5 /* Radium.swift */; };
+		1D016CBBCA22D62AEF089A4628FE727A /* DayCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B3D59E0760ACD0E10FAABD7DC3463 /* DayCost.swift */; };
+		1E092BE3850E1B666244322AFD62BC8F /* SunriseCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9640D694F5AE42E00CD7BAF6BF5D5454 /* SunriseCalendar.swift */; };
+		1EF6378BB9C649BD084F4C181D6EBAB0 /* Ted.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF64CED81AD1F1FB47910CEC99765E92 /* Ted.swift */; };
+		1F955A70AA17819D3A24634C9FFC2C63 /* SubwayKorea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A724FAAEA98936CF4EAF37492EE69 /* SubwayKorea.swift */; };
+		204069908EC08E132622291683515AE7 /* AllCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A719FF885DFD1F3BB518BB4ED89C6 /* AllCast.swift */; };
+		2065E28C05CA80DF31D3AACBCC0CA649 /* PicCollage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E33309CFEFC09E3CF9DF312C057B2 /* PicCollage.swift */; };
+		20BDA7DF313CB10C2D03F8E696507FDD /* Swarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D4832A649B6E43342C39B024BA6B17 /* Swarm.swift */; };
+		2263FFB15E271C2C34B223790D948CB8 /* Itranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1E062524A93AFC3D8F3B88BF5392 /* Itranslate.swift */; };
+		2378186885AA69BA861B66F7D515DEEE /* Documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17952B119DB228B48BFB38836313EFFF /* Documents.swift */; };
+		25742A4408A009F01D50C482BE266B96 /* IMDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEF2A3E14D3A7C7284EDF2A36C9E8D /* IMDb.swift */; };
+		26066410B7262316F9AF3C8CE20DEBC1 /* Pods-weatherGuru-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5404D1C0B29D916408F02150AA0FBF1D /* Pods-weatherGuru-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28DB7D76303B5DE1CE5F3E30DBD28FE1 /* GoogleDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0636960C7F3DFC073912FD7CEB035771 /* GoogleDrive.swift */; };
+		2AB05460EB280E4B4C4D6FF07DAB0AA8 /* Echofon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D249A64C08CE90742F2C7F0485571 /* Echofon.swift */; };
+		2AFA6CDE9E0F2AF6F05784BDCB6E4B40 /* StitcherRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF0196F19E12099D2DC13D001EA650 /* StitcherRadio.swift */; };
+		2CB033233D46FF27799418FC77C578A3 /* Tweetbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8760B3468668559BC2A8332928474 /* Tweetbot.swift */; };
+		2F9A1A97E16F84F8A4B83E0B7F84A46B /* Mopico.swift in Sources */ = {isa = PBXBuildFile; fileRef = F643AF1749220518A6E3AA0F0CFA5E1A /* Mopico.swift */; };
+		300A2FA3C4D61B26776B9DF615059B52 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741EB8B648EB68B1641A021460CAFF7D /* Mail.swift */; };
+		30C466F506E885500A7E4FCCB09F73FE /* Camera360.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D77EA07C507DD45130C4E3D94FB816D /* Camera360.swift */; };
+		317C35455AC4F574B4BC695CE5DC4721 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1EAD9AAA19D27B47CF2314CFB237BD /* Phone.swift */; };
+		318E48FF1D117C50286864AC17F8503D /* Strava.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CD7D91F3A365FE512A4991398E169 /* Strava.swift */; };
+		32C929A10061E19DE5B7A0C037362960 /* Ishows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5F90CE05A522DD18CE651A71338E4 /* Ishows.swift */; };
+		352050A8E24A76142C3FFCDC6154029B /* Marktplaats.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC07DE75374A333D5F0A836AC79449CC /* Marktplaats.swift */; };
+		3AB094FA68AC064F2517EDC3D7D9303A /* CirclePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C2FD7CC2C123AE4677F4C9CD38FC0 /* CirclePay.swift */; };
+		3BD8E9E7F443CE7375D691C9729A6F38 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A3C1E258CB6F13A59B865FB27F58B7 /* Messages.swift */; };
+		3D70F1D8BF13EC97E47A26561EB3D955 /* Ibooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FC8847F55700EDFCEECCF4833CBF94 /* Ibooks.swift */; };
+		3E23667C1FEDDE0472C23F94F88BA1AA /* HootSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A264B0B3AA39E7140922E30F4FA09 /* HootSuite.swift */; };
+		3F5A7283330ADB745CD458F58E50DC4D /* Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C90C2F846603CC6CAB7077CF5BB4181 /* Weibo.swift */; };
+		3F64027F2E4843EAD9F8F65C7330040F /* KakaoTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF5527C735F44D0A0A58E4698C708F /* KakaoTalk.swift */; };
+		3FB00918FAF4F727D14131B5AE4CDAFF /* Yelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C450973272749C2B225F88383FCA327F /* Yelp.swift */; };
+		426A67428E571F40A22E0119A21F8E10 /* Keeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2047E1A27A3C90479AE6FEBF8973685 /* Keeper.swift */; };
+		42EC9BC9C6AC1C5819BB590081031E9B /* Snapseed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A72C760D7FA0911F0C44AF6B0498D0 /* Snapseed.swift */; };
+		44C57F4CB772B7218A1D3A4880929771 /* Epson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F73864782685E06129A69C98C2CFE8 /* Epson.swift */; };
+		44C6F18C46BFABA9925B02F2C5545810 /* VSCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65663FDEF2348691E18A0323AF4CD502 /* VSCO.swift */; };
+		4895EFA455E349E943297A8FC93F6BE8 /* FlippsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4764347428BB4BB3DD5BA647CE1E3DF8 /* FlippsTV.swift */; };
+		491C5D950C737F38F9D4C587DA82C104 /* GooglePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF9A3548803D84F4CE08B4D2A250 /* GooglePhotos.swift */; };
+		49A24FA4FCE97F5F4C4ECF145D7F9790 /* Telegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1DD42A44F493798AD69D9A90273EC /* Telegram.swift */; };
+		4B5B8CE8C3442678A4302AB6D294CD78 /* Pinterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B50D267DB3FC1CDA99BF84D08550 /* Pinterest.swift */; };
+		4D019E65E4E6644A3D679BC755DB98F7 /* Twitterrific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A917F90B9DC791EB5B56ADE6B0729 /* Twitterrific.swift */; };
+		4EC6C8AC2C47526AE2D4FAD6AF1BD9E4 /* RIDE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EDEC22C7C0FD8B5C083581478E71CA /* RIDE.swift */; };
+		4FF5B9E1B75B6E5A7C2FA5D8A7B969B2 /* Pods-weatherGuru-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7380D1769D62C6B02A350E90DE464571 /* Pods-weatherGuru-dummy.m */; };
+		515FD9C557FA19EF45F8374E369AB45C /* GoogleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FA9AEB48F4CC0D20475089807B144 /* GoogleSheets.swift */; };
+		52D606B4EABA0779CCD6572068ED0899 /* FRIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB74F78BE5A6F99EB9513F2E0A624429 /* FRIL.swift */; };
+		55CE9F2DFD112B14A61DF99724D4DB91 /* Feedly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D2F7845B6D99CFDD8B155ACAFD053 /* Feedly.swift */; };
+		561B5129DE908926716B13FE2F8510F5 /* SSG2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057961B856FC4998E52DB9F466EAB973 /* SSG2.swift */; };
+		60F2838853A80BB9A9E06606DF6CB839 /* GroupeMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92374E8B673723B07A64411596E4413B /* GroupeMe.swift */; };
+		619D33EC2F6138C63D2B0B730AE0BF01 /* WhatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD77A246D9269AEA179D19441090731 /* WhatsApp.swift */; };
+		65E6A6B99320B031C6A0199359E7C7FF /* Kik.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E6262E72CBB22C9A8689A1F7722B1 /* Kik.swift */; };
+		66E508D730F5F04570B22577524BE2E5 /* Flipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B30D39B980A274E2BC5C3B18D9FC /* Flipboard.swift */; };
+		67944F301A8B2BA6BD2BBC2209BBE973 /* Uber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F32D3B58A62AEB15229E09968413935 /* Uber.swift */; };
+		6B3BC1F5D4658863D170CE42CCC7D514 /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF690823759BC63216CACA32F5B25F /* Facebook.swift */; };
+		6D625BDA2237AAE81295C8405164E9D7 /* RunKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6B212E21896B70E6E423655237030 /* RunKeeper.swift */; };
+		6FABA117C2716D48F90DB8AE0FB0CC23 /* Unread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2145D1CACE8D7695D51DA233C193832C /* Unread.swift */; };
+		71E92C9B83615A33624B5C493A59C44A /* Cnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474608028F4D6475117FED64CA657F69 /* Cnet.swift */; };
+		7253DC17CD64EF509BE10D895F6EF537 /* MyFitnessPal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBF79411B4CA1426C4AE47CBAB273B1 /* MyFitnessPal.swift */; };
+		73038D1F723E6388647EF25868C5F11A /* Tumblr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157E79E85EDDF042915AA75A81A45F5 /* Tumblr.swift */; };
+		7326818DAE2ADC04408FC1017D97DE00 /* RoboForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C60C920A68913F3DE82D9D79DD6BE /* RoboForm.swift */; };
+		7341C9A83583C6118066C08390B7D3DC /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DE76DE9710CB5CD8BC07C97B91E22 /* Flickr.swift */; };
+		737B8D92F7F1798E1AEED31B8EE39D07 /* Dropbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5626B299A28E0EB942D3334180444CF2 /* Dropbox.swift */; };
+		74E6D0F02DDC2F9F6015587F2E9BACF4 /* NSExtensionContext+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE748A34FFAF93FC139709A0B11F55 /* NSExtensionContext+ApplicationCaller.swift */; };
+		75BBE555A88F6AB4949ECBA99185A3F4 /* FriendlySocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C1D5CA285AD5BE160850F624D52EA /* FriendlySocial.swift */; };
+		7780874A377F4AE8A6352EF8903BC6D6 /* Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68E741D40518DCF669D75EB2E9C5B6 /* Moves.swift */; };
+		782D4730C44689047EDDC26D7FB96455 /* ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8C14E36E223A56C69BA605975D087 /* ApplicationCaller.swift */; };
+		78CA471285D874A990770E3226C9235D /* NameShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C972FEE90B27153E8C81E9CB699D3DA /* NameShark.swift */; };
+		7915B086AE1A22F0FB24D7C0E6E08481 /* NPORadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63230DCAE14982685F19B2BBE3B22404 /* NPORadio.swift */; };
+		7CDA43BCDA6271D12E582762AD47423F /* GoogleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2FD1863E8DC164F3AC708328518BF /* GoogleMaps.swift */; };
+		7D289048770F90F31C5FFB21495AB80F /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D33BAA4BD3DEE3E2F5A1A9F2BA6A8 /* Path.swift */; };
+		7E88D97D0C91DD70E600ACBE0B330640 /* Wikipanion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A08BD62F7FF2F8127BCD10AC28FB8 /* Wikipanion.swift */; };
+		806BAB73055498387817F12166FEB041 /* TestFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF50A2D7A00C8C26106AF8BB95DE219 /* TestFlight.swift */; };
+		80B5669A83CD99AEB91A53C44993947D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B117701627704CB419FFCF59558ADBA /* Settings.swift */; };
+		8242092235A390D1D9B7F56EF393D539 /* GooglePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A967B1D2550520655A793D183EE0014 /* GooglePlus.swift */; };
+		85574B5A5E0D2706F22C56C44BCE7B52 /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0CF1D4C331D5B637AD3B3BEADD3AC /* DayOne.swift */; };
+		856DA50BBE5640F1E016F2A317D0B47A /* MobileMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B159F16D6AD0215D2C0C5D3949CD4 /* MobileMouse.swift */; };
+		85BE72D74E0FB0C2072AF18F90D58877 /* Periscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA38143F768C7DB7D9E0616987C46A /* Periscope.swift */; };
+		866DF2BF446C12AF1A684CD55FF43CD1 /* EyeEm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C36EFAB7DB4A5F99B584F00C0F3E9E /* EyeEm.swift */; };
+		8D38B28C1908BD6314E4B757498A9BAE /* Paypal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2B23D0421C50369E4E76A1FF7C982 /* Paypal.swift */; };
+		8E4241645EF50D0170BFCB77232763F4 /* Skype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC382C7BB08C8A74E73CED70B3CA81D /* Skype.swift */; };
+		8E6982FC0E07F0A6CAC31C29E6819A5D /* AliExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16E249A7A143A6A91EDC4D4CFDB589 /* AliExpress.swift */; };
+		8F1E8DE01AEA94A16967652248FBACB9 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E331521E9C18828E928C5D093293B05 /* Gallery.swift */; };
+		92F9FF25C2A9229D7B64653C4574143C /* UIApplication+ApplicationCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB079855F0EFE5B979DCFFD45F0486D /* UIApplication+ApplicationCaller.swift */; };
+		9502B8CBFBA5A85441B351A7CDC3DBED /* OneDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F38AF72D1EAEDDD9C28A0496F125C7 /* OneDrive.swift */; };
+		950EE465C05E4CECAC66B14D76806F2B /* DailyMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6771E028D6215DDBAD3DB40230680 /* DailyMotion.swift */; };
+		9649A26EA9CB2256922D7257149F10DC /* Skitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743A2EE5FCA091EAC3FB24AF0E4F5248 /* Skitch.swift */; };
+		96B20A943F6B265F84191CD8358307A5 /* Voxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C462FBC67D6955E91F54ED0EE41D5 /* Voxer.swift */; };
+		9767188E27E46683C4E7289401B000E0 /* ScannerPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751870C7B0F251630BD9F924B5B4639 /* ScannerPro.swift */; };
+		98F1A726E431406E2CD10404C92BEF83 /* Pocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412B598516339F5353EFFB760C5BF41 /* Pocket.swift */; };
+		99EBDB3EA431264DDD69A2A1681015EC /* Outlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2751D73F665C2395F304EBA56ED7B /* Outlook.swift */; };
+		9BA10136D6058DF4380D26B5433D50AD /* Chromecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088C97D78EACD8A369D180A485FA601C /* Chromecast.swift */; };
+		9D0713C53802944D5902579B34D83BCA /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDA00356B88C7B4F52EAB9EBA3BF21 /* Line.swift */; };
+		9D41969055CD539242C291EB9F8D2DB6 /* Appz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C689BE5C5BDD93FC10E7535036170 /* Appz-dummy.m */; };
+		9E47F06323F77D5FA99CA520BEA14FCD /* Marvis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B51FF91AA5DFDC7CBBACF3F7CFD692 /* Marvis.swift */; };
+		9F151D89D4AE6859795C52F838A0F4B0 /* Soundflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60387AC62C12CCEE97E4F4A7E869BC1F /* Soundflake.swift */; };
+		A1274F1EF852A8DAE10A8EA860D8FBE8 /* Audible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B29864C07A6E76D975132EB592E9E43 /* Audible.swift */; };
+		A25A291D1A111D5D37B300F433F5FF68 /* Linkedin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A26945819F41CF99AC8BC134A7042AF /* Linkedin.swift */; };
+		A479BEFCF3B3D8E5BDAC45E22A026A67 /* Quora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2555180935CA09966B4EF634B672A9 /* Quora.swift */; };
+		A66958F2026DA4F3CD220ACBD6C1CF84 /* NYTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8DE1970072839AD45B258173925DD /* NYTimes.swift */; };
+		A770B9F08193346C4285B2951FF08ACF /* Rijnmond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1245D7B0D36D3DC1EB4CD4CD1B0D3EBA /* Rijnmond.swift */; };
+		A8AA798F1C2B10D1D5C0A51B93CE92CA /* Diigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237996D518754F4B443AFC4B9B899A11 /* Diigo.swift */; };
+		A97B2D9599A336B38AC98A0DD6E6790A /* Glympse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1A26C6D532DCDE1253ECA95DDF946 /* Glympse.swift */; };
+		AC86B113DB45D541D130E33BDDAB2986 /* Tubex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C119C12825732517A75CCA6AFAF057F /* Tubex.swift */; };
+		B09856B2675C7227BD367A09744EEAF5 /* BNR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA73C54191C0823F0EBF474C8B80B0 /* BNR.swift */; };
+		B2C651A1B2DADAFC55DD4878F6F045D9 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C8054A2B729E046F0C83129F91066 /* Music.swift */; };
+		B56FD8D2B7D8925F41C1A7438796026E /* GoogleSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D64D34EAFFE2B062E237E1C3415D /* GoogleSlides.swift */; };
+		B5FB5CABB4AA820BF35E67761B3F3AE9 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CB0C1F89B9CC2405D481A095E583AD /* Videos.swift */; };
+		B7EC170325F474798227053A4C84CE24 /* Clips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA407F245F8F3FA668AF10C2D4C479E /* Clips.swift */; };
+		B979B4F944BF93AA9EECBA9D1B9205DB /* Instapaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499B4C2B5F31349AFA6FCAE07B6F2A8 /* Instapaper.swift */; };
+		BD910AA6306A8FE5A5DCD0283CEDA938 /* FindFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B89AC1A82340DBE9FF68DAEDE7266C8 /* FindFriends.swift */; };
+		BEEDBF38B3C8DD532853A8BBD2434C81 /* OMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04721E3CF6001EECD3DBF9C8600A0DD2 /* OMT.swift */; };
+		BF1CF46B0A3A3089AEA2470CFBB8C970 /* Appz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCD2FBA7401D04C327CC804503E3F27 /* Appz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFFE9DE798D6FD77B12CD7CCAA1D32B6 /* Buzzfeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B84A728420CDAACD16B9DF152F1C9D /* Buzzfeed.swift */; };
+		C061F1F42B155B57CFE2512829199751 /* Vimeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D2B87968C8E7AF0ED79209CDFC8D69 /* Vimeo.swift */; };
+		C1DC8EB2EF81E7E3514E44F5BEBD9262 /* Tango.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02778BA56262B45F70151C766DFB4997 /* Tango.swift */; };
+		C32807A577924A78CC50AC85DA4BC7B2 /* YahooWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6EEADF8ED52861F3FF79A794D20AED /* YahooWeather.swift */; };
+		C52614A16795A035943BD78F7ABF0B59 /* OnePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532D99242D9E3745D3C67CAD3EFD3E31 /* OnePassword.swift */; };
+		C52FF64F8F016496D74649C768FB09DD /* Ustream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC36037517E083CA73964ED86DC92FE /* Ustream.swift */; };
+		C5B323C37E5C161D912EC531A9A6A7D0 /* Tinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A5B07E9A3197DD3B3BBCB832BD4C5 /* Tinder.swift */; };
+		C69692706C45F3C3BC4CC7F21E73BC6B /* Kayak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C28266C7E143B1229FF90F0EDEE25C /* Kayak.swift */; };
+		CB074BA3EF1BB25DF35A3D9B68124274 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB458DF7FFE2B8082A4CA3A63735D2C /* Currency.swift */; };
+		CDD9187883A70110F72A6897717D415A /* Foursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F0B889A434545E44D6CC47D5180DF /* Foursquare.swift */; };
+		CE7CA80441C21AE76322863CD6EDA4D5 /* Viber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F10F5F127F7EF72F38DA333269A3A4 /* Viber.swift */; };
+		D541DE52CA741670D2A5AA3F4E6BBC52 /* GoogleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4E2D3176AC69BB5A75ACE8BDDCC8C /* GoogleCalendar.swift */; };
+		D5BB704CD8574C313131306E9066EFAB /* VIPAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA499594AA9C1F3BEB8BFA8C5E8CA7B3 /* VIPAccess.swift */; };
+		D7575365E53CC416D25A5C4B9C6066BE /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A513401B7766C4FFD42B9E8D187AC /* Applications.swift */; };
+		D7A1DE74077AEE2E0522CDDA13FEDA39 /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB623BB0FFDD13C311D566D6F2BFCC /* Twitter.swift */; };
+		DD5F9B4FAB7118A7E20195D8377F1254 /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEEF559C2462FF185B5CB7EC739625C /* RemindersApp.swift */; };
+		DD8279B19040458660B2681E58C5AFF5 /* GoogleEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BB0FEB31AD31910D9284F2727209C /* GoogleEarth.swift */; };
+		DECC11431F38F9D22A64583E2F718CA8 /* GoogleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3130FB74C93D527B5A87F6D79D7E6 /* GoogleChrome.swift */; };
+		DF44A169E82153D2B40A61F44164498C /* AppleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A5C5FCAA593E8ED64C1796155FEE7 /* AppleMaps.swift */; };
+		DF5E16C3F344035E17110F48174A4670 /* Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634ACA2DA669FEFE14E3EADF80336B3E /* Netflix.swift */; };
+		E1650E63C8E5901B1BB827E5F5E1A55F /* INRIXTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF2C3DFC6DFA11603642B37DCE885E /* INRIXTraffic.swift */; };
+		E2343402CEB8949F45E1F39627550184 /* Songpop2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD85204BBA3FF5381F9A80DC780A33 /* Songpop2.swift */; };
+		E469C9C2319CF067DDB977B1291DD9B3 /* LastPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81645BC916E64231348ABFAEF5AA1685 /* LastPass.swift */; };
+		E91F1F90F5B40232F012BBCBCE2D05E8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCDB8FFDEE73372A3321E0CF635D2D /* Box.swift */; };
+		ED3812422F7F4BF24F53B67E7DE9539E /* WordPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155DA56198917CC31A9911884BA6877 /* WordPress.swift */; };
+		EDDF6F6C9EF45C0F57E5097F013B146E /* Simplenote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938641D00AD422DBE79A120710B61424 /* Simplenote.swift */; };
+		EEBBE210468FD9B9ABE8DF2C88AC3A2D /* Vine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F53E89A5B92DD8440F848CD206725 /* Vine.swift */; };
+		EF36F9F8F7A7F74CD870BA6F0F2BE5D4 /* CNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41774A1047335A16B618E846C501CE84 /* CNN.swift */; };
+		EFABB91438C4D6330A466A03824BF896 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CED608549B69BD3242E441A1513BB /* Notes.swift */; };
+		F30C8A8B0F96ECA454EAA093E079D8B0 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42757FE3FC2DE4675E9DFEA3A205AA3C /* Remote.swift */; };
+		F347980617075AD9EC694B0E06263F86 /* Yammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9E8796D7BBBE4F79EABC8EEC4618F /* Yammer.swift */; };
+		F44CA97B56DF837975B55C983CBC0916 /* AirLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1D79EA3CB78C0D6CD67B73D22D203F /* AirLaunch.swift */; };
+		F60CFBA964660D9D2E522FD75CC67D3D /* Ebay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECC32F07AFE6518D3B9E1DE21FF1569 /* Ebay.swift */; };
+		F6985979C4AD9FB95B26846FE9B1A397 /* Heapo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171D0698BE9887AA936B2FCDDDDBAA3 /* Heapo.swift */; };
+		F7D804B8358EA2362B6F30F93A6AC64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F87D0D9A42D1B0CB3EA786D7BA97A7A4 /* Fitbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFD6984DB63EB1D7C675DD925E0F390 /* Fitbit.swift */; };
+		F87FA3CDCF6B5134CB56D1E5C8D46E2D /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64915310075C6CEC982008E8D65E096F /* Meerkat.swift */; };
+		F89258C77932A971B259846487062A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F8D65E42543AEEC0F6C845BFB06612CE /* WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434D17D9C8412F30B5ACFC60647617A3 /* WeChat.swift */; };
+		FBDE2267306DEB68A7B43227C2BF3393 /* Sonos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0595E3A801CBDACDD581AE39CC477 /* Sonos.swift */; };
+		FBF2C0CE8066C360B38AB40640558E07 /* GoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA64AEE2F5C6FBA708A5C3092675DB /* GoogleTranslate.swift */; };
+		FC63A67554E6D3A4071ABA44845AB9FE /* GoogleMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585B6F5DC980265DFEC81D2923C92820 /* GoogleMail.swift */; };
+		FF62C8E464051F5E54D4253ACAADE43E /* ItunesU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DEE7E2DC766D60228071FEB41BC25E /* ItunesU.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900E9670DD6B258D7FEFDE7D1A27C86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B6169A92EE46CEC2912B877A4563CF6;
+			remoteInfo = Appz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0171D0698BE9887AA936B2FCDDDDBAA3 /* Heapo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Heapo.swift; path = Appz/Appz/Apps/Heapo.swift; sourceTree = "<group>"; };
+		01772FE72CB68F7CEEA2DEA25B6FFFD1 /* Pods-weatherGuru.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-weatherGuru.modulemap"; sourceTree = "<group>"; };
+		02778BA56262B45F70151C766DFB4997 /* Tango.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tango.swift; path = Appz/Appz/Apps/Tango.swift; sourceTree = "<group>"; };
+		04721E3CF6001EECD3DBF9C8600A0DD2 /* OMT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OMT.swift; path = Appz/Appz/Apps/OMT.swift; sourceTree = "<group>"; };
+		0499B4C2B5F31349AFA6FCAE07B6F2A8 /* Instapaper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instapaper.swift; path = Appz/Appz/Apps/Instapaper.swift; sourceTree = "<group>"; };
+		054D249A64C08CE90742F2C7F0485571 /* Echofon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Echofon.swift; path = Appz/Appz/Apps/Echofon.swift; sourceTree = "<group>"; };
+		057961B856FC4998E52DB9F466EAB973 /* SSG2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSG2.swift; path = Appz/Appz/Apps/SSG2.swift; sourceTree = "<group>"; };
+		05DD85204BBA3FF5381F9A80DC780A33 /* Songpop2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Songpop2.swift; path = Appz/Appz/Apps/Songpop2.swift; sourceTree = "<group>"; };
+		0636960C7F3DFC073912FD7CEB035771 /* GoogleDrive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleDrive.swift; path = Appz/Appz/Apps/GoogleDrive.swift; sourceTree = "<group>"; };
+		06C28266C7E143B1229FF90F0EDEE25C /* Kayak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kayak.swift; path = Appz/Appz/Apps/Kayak.swift; sourceTree = "<group>"; };
+		07BE748A34FFAF93FC139709A0B11F55 /* NSExtensionContext+ApplicationCaller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSExtensionContext+ApplicationCaller.swift"; path = "Appz/Appz/Extensions/NSExtensionContext+ApplicationCaller.swift"; sourceTree = "<group>"; };
+		088C97D78EACD8A369D180A485FA601C /* Chromecast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chromecast.swift; path = Appz/Appz/Apps/Chromecast.swift; sourceTree = "<group>"; };
+		0A26945819F41CF99AC8BC134A7042AF /* Linkedin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Linkedin.swift; path = Appz/Appz/Apps/Linkedin.swift; sourceTree = "<group>"; };
+		0AB458DF7FFE2B8082A4CA3A63735D2C /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Appz/Appz/Apps/Currency.swift; sourceTree = "<group>"; };
+		0B29864C07A6E76D975132EB592E9E43 /* Audible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Audible.swift; path = Appz/Appz/Apps/Audible.swift; sourceTree = "<group>"; };
+		0BFF5527C735F44D0A0A58E4698C708F /* KakaoTalk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KakaoTalk.swift; path = Appz/Appz/Apps/KakaoTalk.swift; sourceTree = "<group>"; };
+		0C6EEADF8ED52861F3FF79A794D20AED /* YahooWeather.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YahooWeather.swift; path = Appz/Appz/Apps/YahooWeather.swift; sourceTree = "<group>"; };
+		0C90C2F846603CC6CAB7077CF5BB4181 /* Weibo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weibo.swift; path = Appz/Appz/Apps/Weibo.swift; sourceTree = "<group>"; };
+		11DEE7E2DC766D60228071FEB41BC25E /* ItunesU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItunesU.swift; path = Appz/Appz/Apps/ItunesU.swift; sourceTree = "<group>"; };
+		1245D7B0D36D3DC1EB4CD4CD1B0D3EBA /* Rijnmond.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rijnmond.swift; path = Appz/Appz/Apps/Rijnmond.swift; sourceTree = "<group>"; };
+		130B7ACB095A4E067D93A0EA63A34F19 /* Trello.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trello.swift; path = Appz/Appz/Apps/Trello.swift; sourceTree = "<group>"; };
+		151A5B07E9A3197DD3B3BBCB832BD4C5 /* Tinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tinder.swift; path = Appz/Appz/Apps/Tinder.swift; sourceTree = "<group>"; };
+		165B3D59E0760ACD0E10FAABD7DC3463 /* DayCost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayCost.swift; path = Appz/Appz/Apps/DayCost.swift; sourceTree = "<group>"; };
+		1754B50D267DB3FC1CDA99BF84D08550 /* Pinterest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pinterest.swift; path = Appz/Appz/Apps/Pinterest.swift; sourceTree = "<group>"; };
+		17952B119DB228B48BFB38836313EFFF /* Documents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Documents.swift; path = Appz/Appz/Apps/Documents.swift; sourceTree = "<group>"; };
+		19F38AF72D1EAEDDD9C28A0496F125C7 /* OneDrive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OneDrive.swift; path = Appz/Appz/Apps/OneDrive.swift; sourceTree = "<group>"; };
+		1ABB623BB0FFDD13C311D566D6F2BFCC /* Twitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Twitter.swift; path = Appz/Appz/Apps/Twitter.swift; sourceTree = "<group>"; };
+		1B117701627704CB419FFCF59558ADBA /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = Appz/Appz/Apps/Settings.swift; sourceTree = "<group>"; };
+		1FD77A246D9269AEA179D19441090731 /* WhatsApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhatsApp.swift; path = Appz/Appz/Apps/WhatsApp.swift; sourceTree = "<group>"; };
+		209A724FAAEA98936CF4EAF37492EE69 /* SubwayKorea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubwayKorea.swift; path = Appz/Appz/Apps/SubwayKorea.swift; sourceTree = "<group>"; };
+		2145D1CACE8D7695D51DA233C193832C /* Unread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unread.swift; path = Appz/Appz/Apps/Unread.swift; sourceTree = "<group>"; };
+		22F99D91C9B95FEA3787CB888E9160FB /* Snapchat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapchat.swift; path = Appz/Appz/Apps/Snapchat.swift; sourceTree = "<group>"; };
+		237996D518754F4B443AFC4B9B899A11 /* Diigo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diigo.swift; path = Appz/Appz/Apps/Diigo.swift; sourceTree = "<group>"; };
+		259A513401B7766C4FFD42B9E8D187AC /* Applications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Applications.swift; path = Appz/Appz/Entity/Applications.swift; sourceTree = "<group>"; };
+		25DF2C3DFC6DFA11603642B37DCE885E /* INRIXTraffic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INRIXTraffic.swift; path = Appz/Appz/Apps/INRIXTraffic.swift; sourceTree = "<group>"; };
+		2B6C1D5CA285AD5BE160850F624D52EA /* FriendlySocial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FriendlySocial.swift; path = Appz/Appz/Apps/FriendlySocial.swift; sourceTree = "<group>"; };
+		34F10F5F127F7EF72F38DA333269A3A4 /* Viber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Viber.swift; path = Appz/Appz/Apps/Viber.swift; sourceTree = "<group>"; };
+		36A8A921D3126BFB254CFD5AC838815D /* Instagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instagram.swift; path = Appz/Appz/Apps/Instagram.swift; sourceTree = "<group>"; };
+		3909795D1E4005E101FC308759C5511A /* Pods-weatherGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherGuru.debug.xcconfig"; sourceTree = "<group>"; };
+		39F8DE1970072839AD45B258173925DD /* NYTimes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NYTimes.swift; path = Appz/Appz/Apps/NYTimes.swift; sourceTree = "<group>"; };
+		3B3CD7D91F3A365FE512A4991398E169 /* Strava.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strava.swift; path = Appz/Appz/Apps/Strava.swift; sourceTree = "<group>"; };
+		3B89AC1A82340DBE9FF68DAEDE7266C8 /* FindFriends.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FindFriends.swift; path = Appz/Appz/Apps/FindFriends.swift; sourceTree = "<group>"; };
+		3CC382C7BB08C8A74E73CED70B3CA81D /* Skype.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skype.swift; path = Appz/Appz/Apps/Skype.swift; sourceTree = "<group>"; };
+		3D6153C66C2001EF1B6B3C9B22D6E685 /* Appz.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Appz.xcconfig; sourceTree = "<group>"; };
+		3D6D2F7845B6D99CFDD8B155ACAFD053 /* Feedly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feedly.swift; path = Appz/Appz/Apps/Feedly.swift; sourceTree = "<group>"; };
+		3D77EA07C507DD45130C4E3D94FB816D /* Camera360.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Camera360.swift; path = Appz/Appz/Apps/Camera360.swift; sourceTree = "<group>"; };
+		3DCF66DAF2CACFB9A7EF53E086E60E5B /* Youtube.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Youtube.swift; path = Appz/Appz/Apps/Youtube.swift; sourceTree = "<group>"; };
+		3F274E3553C78F0FE29F40041B5DA2F2 /* ExternalApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExternalApplication.swift; path = Appz/Appz/Entity/ExternalApplication.swift; sourceTree = "<group>"; };
+		3F3C8188134CEDE42FCCFE13ADFEE8E6 /* Pods-weatherGuru-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weatherGuru-frameworks.sh"; sourceTree = "<group>"; };
+		41774A1047335A16B618E846C501CE84 /* CNN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNN.swift; path = Appz/Appz/Apps/CNN.swift; sourceTree = "<group>"; };
+		41EDA00356B88C7B4F52EAB9EBA3BF21 /* Line.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Line.swift; path = Appz/Appz/Apps/Line.swift; sourceTree = "<group>"; };
+		425FA9AEB48F4CC0D20475089807B144 /* GoogleSheets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleSheets.swift; path = Appz/Appz/Apps/GoogleSheets.swift; sourceTree = "<group>"; };
+		42757FE3FC2DE4675E9DFEA3A205AA3C /* Remote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Remote.swift; path = Appz/Appz/Apps/Remote.swift; sourceTree = "<group>"; };
+		434D17D9C8412F30B5ACFC60647617A3 /* WeChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeChat.swift; path = Appz/Appz/Apps/WeChat.swift; sourceTree = "<group>"; };
+		448E33309CFEFC09E3CF9DF312C057B2 /* PicCollage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PicCollage.swift; path = Appz/Appz/Apps/PicCollage.swift; sourceTree = "<group>"; };
+		474608028F4D6475117FED64CA657F69 /* Cnet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cnet.swift; path = Appz/Appz/Apps/Cnet.swift; sourceTree = "<group>"; };
+		4764347428BB4BB3DD5BA647CE1E3DF8 /* FlippsTV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlippsTV.swift; path = Appz/Appz/Apps/FlippsTV.swift; sourceTree = "<group>"; };
+		47A3C1E258CB6F13A59B865FB27F58B7 /* Messages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = Appz/Appz/Apps/Messages.swift; sourceTree = "<group>"; };
+		47B51FF91AA5DFDC7CBBACF3F7CFD692 /* Marvis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marvis.swift; path = Appz/Appz/Apps/Marvis.swift; sourceTree = "<group>"; };
+		4801299F830BDDB1B3782A79B779948F /* Appz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Appz.modulemap; sourceTree = "<group>"; };
+		4A2555180935CA09966B4EF634B672A9 /* Quora.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quora.swift; path = Appz/Appz/Apps/Quora.swift; sourceTree = "<group>"; };
+		4B2F0B889A434545E44D6CC47D5180DF /* Foursquare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foursquare.swift; path = Appz/Appz/Apps/Foursquare.swift; sourceTree = "<group>"; };
+		4C9A264B0B3AA39E7140922E30F4FA09 /* HootSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HootSuite.swift; path = Appz/Appz/Apps/HootSuite.swift; sourceTree = "<group>"; };
+		4E1D79EA3CB78C0D6CD67B73D22D203F /* AirLaunch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AirLaunch.swift; path = Appz/Appz/Apps/AirLaunch.swift; sourceTree = "<group>"; };
+		4E331521E9C18828E928C5D093293B05 /* Gallery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gallery.swift; path = Appz/Appz/Apps/Gallery.swift; sourceTree = "<group>"; };
+		4EB549050A7EE8B2D30D9C7AADA4F4C5 /* Radium.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Radium.swift; path = Appz/Appz/Apps/Radium.swift; sourceTree = "<group>"; };
+		4EC36037517E083CA73964ED86DC92FE /* Ustream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ustream.swift; path = Appz/Appz/Apps/Ustream.swift; sourceTree = "<group>"; };
+		4F32D3B58A62AEB15229E09968413935 /* Uber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Uber.swift; path = Appz/Appz/Apps/Uber.swift; sourceTree = "<group>"; };
+		502C62F70C43F18F8F0CF7AD2A6EE968 /* Pods-weatherGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherGuru.release.xcconfig"; sourceTree = "<group>"; };
+		51F73864782685E06129A69C98C2CFE8 /* Epson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Epson.swift; path = Appz/Appz/Apps/Epson.swift; sourceTree = "<group>"; };
+		52B6771E028D6215DDBAD3DB40230680 /* DailyMotion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DailyMotion.swift; path = Appz/Appz/Apps/DailyMotion.swift; sourceTree = "<group>"; };
+		52BAE1486D32117D096F09540A4EDB3A /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = Appz/Appz/Apps/Calendars.swift; sourceTree = "<group>"; };
+		532D99242D9E3745D3C67CAD3EFD3E31 /* OnePassword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnePassword.swift; path = Appz/Appz/Apps/OnePassword.swift; sourceTree = "<group>"; };
+		5404D1C0B29D916408F02150AA0FBF1D /* Pods-weatherGuru-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weatherGuru-umbrella.h"; sourceTree = "<group>"; };
+		54E6666468B2AFB9BDBA4882B8C591A6 /* Pods-weatherGuru-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weatherGuru-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5626B299A28E0EB942D3334180444CF2 /* Dropbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dropbox.swift; path = Appz/Appz/Apps/Dropbox.swift; sourceTree = "<group>"; };
+		571C8054A2B729E046F0C83129F91066 /* Music.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Music.swift; path = Appz/Appz/Apps/Music.swift; sourceTree = "<group>"; };
+		585B6F5DC980265DFEC81D2923C92820 /* GoogleMail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleMail.swift; path = Appz/Appz/Apps/GoogleMail.swift; sourceTree = "<group>"; };
+		5C11DB6B9BA088D236D59F4047910C8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C972FEE90B27153E8C81E9CB699D3DA /* NameShark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameShark.swift; path = Appz/Appz/Apps/NameShark.swift; sourceTree = "<group>"; };
+		5F68E741D40518DCF669D75EB2E9C5B6 /* Moves.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moves.swift; path = Appz/Appz/Apps/Moves.swift; sourceTree = "<group>"; };
+		60387AC62C12CCEE97E4F4A7E869BC1F /* Soundflake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Soundflake.swift; path = Appz/Appz/Apps/Soundflake.swift; sourceTree = "<group>"; };
+		61D2751D73F665C2395F304EBA56ED7B /* Outlook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Outlook.swift; path = Appz/Appz/Apps/Outlook.swift; sourceTree = "<group>"; };
+		623A719FF885DFD1F3BB518BB4ED89C6 /* AllCast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllCast.swift; path = Appz/Appz/Apps/AllCast.swift; sourceTree = "<group>"; };
+		627F1E062524A93AFC3D8F3B88BF5392 /* Itranslate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Itranslate.swift; path = Appz/Appz/Apps/Itranslate.swift; sourceTree = "<group>"; };
+		6308924BE42260CF8CE313C43BB7E634 /* GoogleDocs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleDocs.swift; path = Appz/Appz/Apps/GoogleDocs.swift; sourceTree = "<group>"; };
+		63230DCAE14982685F19B2BBE3B22404 /* NPORadio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NPORadio.swift; path = Appz/Appz/Apps/NPORadio.swift; sourceTree = "<group>"; };
+		634ACA2DA669FEFE14E3EADF80336B3E /* Netflix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Netflix.swift; path = Appz/Appz/Apps/Netflix.swift; sourceTree = "<group>"; };
+		64915310075C6CEC982008E8D65E096F /* Meerkat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Meerkat.swift; path = Appz/Appz/Apps/Meerkat.swift; sourceTree = "<group>"; };
+		65663FDEF2348691E18A0323AF4CD502 /* VSCO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VSCO.swift; path = Appz/Appz/Apps/VSCO.swift; sourceTree = "<group>"; };
+		65CB0C1F89B9CC2405D481A095E583AD /* Videos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Videos.swift; path = Appz/Appz/Apps/Videos.swift; sourceTree = "<group>"; };
+		6B2C462FBC67D6955E91F54ED0EE41D5 /* Voxer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Voxer.swift; path = Appz/Appz/Apps/Voxer.swift; sourceTree = "<group>"; };
+		72FC8847F55700EDFCEECCF4833CBF94 /* Ibooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ibooks.swift; path = Appz/Appz/Apps/Ibooks.swift; sourceTree = "<group>"; };
+		7380D1769D62C6B02A350E90DE464571 /* Pods-weatherGuru-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weatherGuru-dummy.m"; sourceTree = "<group>"; };
+		7411D64D34EAFFE2B062E237E1C3415D /* GoogleSlides.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleSlides.swift; path = Appz/Appz/Apps/GoogleSlides.swift; sourceTree = "<group>"; };
+		741EB8B648EB68B1641A021460CAFF7D /* Mail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mail.swift; path = Appz/Appz/Apps/Mail.swift; sourceTree = "<group>"; };
+		743A2EE5FCA091EAC3FB24AF0E4F5248 /* Skitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skitch.swift; path = Appz/Appz/Apps/Skitch.swift; sourceTree = "<group>"; };
+		767A26F224F7D1545E5D531E7F7A0061 /* Pods-weatherGuru-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherGuru-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B1A917F90B9DC791EB5B56ADE6B0729 /* Twitterrific.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Twitterrific.swift; path = Appz/Appz/Apps/Twitterrific.swift; sourceTree = "<group>"; };
+		7E5644D2554ACBC8F8313F4320F95C50 /* Whyd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whyd.swift; path = Appz/Appz/Apps/Whyd.swift; sourceTree = "<group>"; };
+		7ED4E2D3176AC69BB5A75ACE8BDDCC8C /* GoogleCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCalendar.swift; path = Appz/Appz/Apps/GoogleCalendar.swift; sourceTree = "<group>"; };
+		81645BC916E64231348ABFAEF5AA1685 /* LastPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LastPass.swift; path = Appz/Appz/Apps/LastPass.swift; sourceTree = "<group>"; };
+		8412B598516339F5353EFFB760C5BF41 /* Pocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pocket.swift; path = Appz/Appz/Apps/Pocket.swift; sourceTree = "<group>"; };
+		87EDEC22C7C0FD8B5C083581478E71CA /* RIDE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RIDE.swift; path = Appz/Appz/Apps/RIDE.swift; sourceTree = "<group>"; };
+		8A967B1D2550520655A793D183EE0014 /* GooglePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlus.swift; path = Appz/Appz/Apps/GooglePlus.swift; sourceTree = "<group>"; };
+		8C9CED608549B69BD3242E441A1513BB /* Notes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notes.swift; path = Appz/Appz/Apps/Notes.swift; sourceTree = "<group>"; };
+		8DA407F245F8F3FA668AF10C2D4C479E /* Clips.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clips.swift; path = Appz/Appz/Apps/Clips.swift; sourceTree = "<group>"; };
+		8DEEF559C2462FF185B5CB7EC739625C /* RemindersApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemindersApp.swift; path = Appz/Appz/Apps/RemindersApp.swift; sourceTree = "<group>"; };
+		8EB079855F0EFE5B979DCFFD45F0486D /* UIApplication+ApplicationCaller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+ApplicationCaller.swift"; path = "Appz/Appz/Extensions/UIApplication+ApplicationCaller.swift"; sourceTree = "<group>"; };
+		8FCA73C54191C0823F0EBF474C8B80B0 /* BNR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNR.swift; path = Appz/Appz/Apps/BNR.swift; sourceTree = "<group>"; };
+		90849EEBBD70C3201E99642E7F2A1C4C /* Appz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Appz.framework; path = Appz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92374E8B673723B07A64411596E4413B /* GroupeMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupeMe.swift; path = Appz/Appz/Apps/GroupeMe.swift; sourceTree = "<group>"; };
+		92A72C760D7FA0911F0C44AF6B0498D0 /* Snapseed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapseed.swift; path = Appz/Appz/Apps/Snapseed.swift; sourceTree = "<group>"; };
+		938641D00AD422DBE79A120710B61424 /* Simplenote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Simplenote.swift; path = Appz/Appz/Apps/Simplenote.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B0595E3A801CBDACDD581AE39CC477 /* Sonos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sonos.swift; path = Appz/Appz/Apps/Sonos.swift; sourceTree = "<group>"; };
+		9640D694F5AE42E00CD7BAF6BF5D5454 /* SunriseCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SunriseCalendar.swift; path = Appz/Appz/Apps/SunriseCalendar.swift; sourceTree = "<group>"; };
+		96EA38143F768C7DB7D9E0616987C46A /* Periscope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Periscope.swift; path = Appz/Appz/Apps/Periscope.swift; sourceTree = "<group>"; };
+		9A4BB0FEB31AD31910D9284F2727209C /* GoogleEarth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleEarth.swift; path = Appz/Appz/Apps/GoogleEarth.swift; sourceTree = "<group>"; };
+		9B2C2FD7CC2C123AE4677F4C9CD38FC0 /* CirclePay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CirclePay.swift; path = Appz/Appz/Apps/CirclePay.swift; sourceTree = "<group>"; };
+		9C119C12825732517A75CCA6AFAF057F /* Tubex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tubex.swift; path = Appz/Appz/Apps/Tubex.swift; sourceTree = "<group>"; };
+		9FBF79411B4CA1426C4AE47CBAB273B1 /* MyFitnessPal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyFitnessPal.swift; path = Appz/Appz/Apps/MyFitnessPal.swift; sourceTree = "<group>"; };
+		A155DA56198917CC31A9911884BA6877 /* WordPress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WordPress.swift; path = Appz/Appz/Apps/WordPress.swift; sourceTree = "<group>"; };
+		A1A0CF1D4C331D5B637AD3B3BEADD3AC /* DayOne.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayOne.swift; path = Appz/Appz/Apps/DayOne.swift; sourceTree = "<group>"; };
+		A2E2FD1863E8DC164F3AC708328518BF /* GoogleMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleMaps.swift; path = Appz/Appz/Apps/GoogleMaps.swift; sourceTree = "<group>"; };
+		A7771602433B9323C035911CC01297D2 /* Nunl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nunl.swift; path = Appz/Appz/Apps/Nunl.swift; sourceTree = "<group>"; };
+		AA0C60C920A68913F3DE82D9D79DD6BE /* RoboForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoboForm.swift; path = Appz/Appz/Apps/RoboForm.swift; sourceTree = "<group>"; };
+		ABFF690823759BC63216CACA32F5B25F /* Facebook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Facebook.swift; path = Appz/Appz/Apps/Facebook.swift; sourceTree = "<group>"; };
+		ADCD2FBA7401D04C327CC804503E3F27 /* Appz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Appz-umbrella.h"; sourceTree = "<group>"; };
+		AEAF8ED13632D6FC0C7652382CF81A40 /* Pods-weatherGuru-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weatherGuru-resources.sh"; sourceTree = "<group>"; };
+		B0E1A26C6D532DCDE1253ECA95DDF946 /* Glympse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Glympse.swift; path = Appz/Appz/Apps/Glympse.swift; sourceTree = "<group>"; };
+		B32D03BE95363524CE87BC9F3A414906 /* AppStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppStore.swift; path = Appz/Appz/Apps/AppStore.swift; sourceTree = "<group>"; };
+		B6D2B87968C8E7AF0ED79209CDFC8D69 /* Vimeo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vimeo.swift; path = Appz/Appz/Apps/Vimeo.swift; sourceTree = "<group>"; };
+		BB16E249A7A143A6A91EDC4D4CFDB589 /* AliExpress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliExpress.swift; path = Appz/Appz/Apps/AliExpress.swift; sourceTree = "<group>"; };
+		BBFD6984DB63EB1D7C675DD925E0F390 /* Fitbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fitbit.swift; path = Appz/Appz/Apps/Fitbit.swift; sourceTree = "<group>"; };
+		C15A08BD62F7FF2F8127BCD10AC28FB8 /* Wikipanion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wikipanion.swift; path = Appz/Appz/Apps/Wikipanion.swift; sourceTree = "<group>"; };
+		C15F53E89A5B92DD8440F848CD206725 /* Vine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vine.swift; path = Appz/Appz/Apps/Vine.swift; sourceTree = "<group>"; };
+		C39276714A0E407839FAE5A62E2D7D67 /* Waze.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Waze.swift; path = Appz/Appz/Apps/Waze.swift; sourceTree = "<group>"; };
+		C450973272749C2B225F88383FCA327F /* Yelp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yelp.swift; path = Appz/Appz/Apps/Yelp.swift; sourceTree = "<group>"; };
+		C58DE76DE9710CB5CD8BC07C97B91E22 /* Flickr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flickr.swift; path = Appz/Appz/Apps/Flickr.swift; sourceTree = "<group>"; };
+		C9D658E0D10F3FF3281B6B6421DA04EF /* Vox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vox.swift; path = Appz/Appz/Apps/Vox.swift; sourceTree = "<group>"; };
+		CA096EAF6C90334B09ED9BF131A8B0BF /* Pods_weatherGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weatherGuru.framework; path = "Pods-weatherGuru.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC1FDF9A3548803D84F4CE08B4D2A250 /* GooglePhotos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePhotos.swift; path = Appz/Appz/Apps/GooglePhotos.swift; sourceTree = "<group>"; };
+		CDE2B23D0421C50369E4E76A1FF7C982 /* Paypal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Paypal.swift; path = Appz/Appz/Apps/Paypal.swift; sourceTree = "<group>"; };
+		CEBEF2A3E14D3A7C7284EDF2A36C9E8D /* IMDb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMDb.swift; path = Appz/Appz/Apps/IMDb.swift; sourceTree = "<group>"; };
+		CFF50A2D7A00C8C26106AF8BB95DE219 /* TestFlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestFlight.swift; path = Appz/Appz/Apps/TestFlight.swift; sourceTree = "<group>"; };
+		D157E79E85EDDF042915AA75A81A45F5 /* Tumblr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tumblr.swift; path = Appz/Appz/Apps/Tumblr.swift; sourceTree = "<group>"; };
+		D4D3130FB74C93D527B5A87F6D79D7E6 /* GoogleChrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleChrome.swift; path = Appz/Appz/Apps/GoogleChrome.swift; sourceTree = "<group>"; };
+		D60E6262E72CBB22C9A8689A1F7722B1 /* Kik.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kik.swift; path = Appz/Appz/Apps/Kik.swift; sourceTree = "<group>"; };
+		D9D16B275A857BB4FEEB5F031D77F8B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA499594AA9C1F3BEB8BFA8C5E8CA7B3 /* VIPAccess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VIPAccess.swift; path = Appz/Appz/Apps/VIPAccess.swift; sourceTree = "<group>"; };
+		DA686289EBBC4D77F1D3D5E15FDFC8C6 /* Appz-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Appz-prefix.pch"; sourceTree = "<group>"; };
+		DAF9E8796D7BBBE4F79EABC8EEC4618F /* Yammer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yammer.swift; path = Appz/Appz/Apps/Yammer.swift; sourceTree = "<group>"; };
+		DF64CED81AD1F1FB47910CEC99765E92 /* Ted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ted.swift; path = Appz/Appz/Apps/Ted.swift; sourceTree = "<group>"; };
+		E0DF0196F19E12099D2DC13D001EA650 /* StitcherRadio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StitcherRadio.swift; path = Appz/Appz/Apps/StitcherRadio.swift; sourceTree = "<group>"; };
+		E3F6663F5DA6DC10640B195A872F2B45 /* FileApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileApp.swift; path = Appz/Appz/Apps/FileApp.swift; sourceTree = "<group>"; };
+		E4A1DD42A44F493798AD69D9A90273EC /* Telegram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Telegram.swift; path = Appz/Appz/Apps/Telegram.swift; sourceTree = "<group>"; };
+		E4D4832A649B6E43342C39B024BA6B17 /* Swarm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swarm.swift; path = Appz/Appz/Apps/Swarm.swift; sourceTree = "<group>"; };
+		E6B9B30D39B980A274E2BC5C3B18D9FC /* Flipboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flipboard.swift; path = Appz/Appz/Apps/Flipboard.swift; sourceTree = "<group>"; };
+		E751870C7B0F251630BD9F924B5B4639 /* ScannerPro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerPro.swift; path = Appz/Appz/Apps/ScannerPro.swift; sourceTree = "<group>"; };
+		EAFA64AEE2F5C6FBA708A5C3092675DB /* GoogleTranslate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleTranslate.swift; path = Appz/Appz/Apps/GoogleTranslate.swift; sourceTree = "<group>"; };
+		EB74F78BE5A6F99EB9513F2E0A624429 /* FRIL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRIL.swift; path = Appz/Appz/Apps/FRIL.swift; sourceTree = "<group>"; };
+		EC07DE75374A333D5F0A836AC79449CC /* Marktplaats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marktplaats.swift; path = Appz/Appz/Apps/Marktplaats.swift; sourceTree = "<group>"; };
+		EC1EAD9AAA19D27B47CF2314CFB237BD /* Phone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Phone.swift; path = Appz/Appz/Apps/Phone.swift; sourceTree = "<group>"; };
+		EE5CEAB6FBDC375C1F09DCC667EE11B1 /* Everypost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Everypost.swift; path = Appz/Appz/Apps/Everypost.swift; sourceTree = "<group>"; };
+		EECC32F07AFE6518D3B9E1DE21FF1569 /* Ebay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ebay.swift; path = Appz/Appz/Apps/Ebay.swift; sourceTree = "<group>"; };
+		F2047E1A27A3C90479AE6FEBF8973685 /* Keeper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keeper.swift; path = Appz/Appz/Apps/Keeper.swift; sourceTree = "<group>"; };
+		F2CCDB8FFDEE73372A3321E0CF635D2D /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Appz/Appz/Apps/Box.swift; sourceTree = "<group>"; };
+		F4B84A728420CDAACD16B9DF152F1C9D /* Buzzfeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buzzfeed.swift; path = Appz/Appz/Apps/Buzzfeed.swift; sourceTree = "<group>"; };
+		F61B159F16D6AD0215D2C0C5D3949CD4 /* MobileMouse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileMouse.swift; path = Appz/Appz/Apps/MobileMouse.swift; sourceTree = "<group>"; };
+		F643AF1749220518A6E3AA0F0CFA5E1A /* Mopico.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mopico.swift; path = Appz/Appz/Apps/Mopico.swift; sourceTree = "<group>"; };
+		F6B92FEB3A7A3464BE13DC85A10AB7E3 /* Spark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spark.swift; path = Appz/Appz/Apps/Spark.swift; sourceTree = "<group>"; };
+		F7A8760B3468668559BC2A8332928474 /* Tweetbot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tweetbot.swift; path = Appz/Appz/Apps/Tweetbot.swift; sourceTree = "<group>"; };
+		F7C36EFAB7DB4A5F99B584F00C0F3E9E /* EyeEm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EyeEm.swift; path = Appz/Appz/Apps/EyeEm.swift; sourceTree = "<group>"; };
+		FBD8C14E36E223A56C69BA605975D087 /* ApplicationCaller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationCaller.swift; path = Appz/Appz/Entity/ApplicationCaller.swift; sourceTree = "<group>"; };
+		FC0C689BE5C5BDD93FC10E7535036170 /* Appz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Appz-dummy.m"; sourceTree = "<group>"; };
+		FE9D33BAA4BD3DEE3E2F5A1A9F2BA6A8 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = Appz/Appz/Entity/Path.swift; sourceTree = "<group>"; };
+		FEA6B212E21896B70E6E423655237030 /* RunKeeper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunKeeper.swift; path = Appz/Appz/Apps/RunKeeper.swift; sourceTree = "<group>"; };
+		FED5F90CE05A522DD18CE651A71338E4 /* Ishows.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ishows.swift; path = Appz/Appz/Apps/Ishows.swift; sourceTree = "<group>"; };
+		FF1A5C5FCAA593E8ED64C1796155FEE7 /* AppleMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleMaps.swift; path = Appz/Appz/Apps/AppleMaps.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A8EE41E70E852BECC1440D9662CFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89258C77932A971B259846487062A6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71BA9B08A50C50D29E084BFC21373FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D804B8358EA2362B6F30F93A6AC64B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA8BC7BD2EF701896A992C693CC8EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90849EEBBD70C3201E99642E7F2A1C4C /* Appz.framework */,
+				CA096EAF6C90334B09ED9BF131A8B0BF /* Pods_weatherGuru.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3334BB106EDCD9CBE62ACB63461CD8CC /* Appz */ = {
+			isa = PBXGroup;
+			children = (
+				4E1D79EA3CB78C0D6CD67B73D22D203F /* AirLaunch.swift */,
+				BB16E249A7A143A6A91EDC4D4CFDB589 /* AliExpress.swift */,
+				623A719FF885DFD1F3BB518BB4ED89C6 /* AllCast.swift */,
+				FF1A5C5FCAA593E8ED64C1796155FEE7 /* AppleMaps.swift */,
+				FBD8C14E36E223A56C69BA605975D087 /* ApplicationCaller.swift */,
+				259A513401B7766C4FFD42B9E8D187AC /* Applications.swift */,
+				B32D03BE95363524CE87BC9F3A414906 /* AppStore.swift */,
+				0B29864C07A6E76D975132EB592E9E43 /* Audible.swift */,
+				8FCA73C54191C0823F0EBF474C8B80B0 /* BNR.swift */,
+				F2CCDB8FFDEE73372A3321E0CF635D2D /* Box.swift */,
+				F4B84A728420CDAACD16B9DF152F1C9D /* Buzzfeed.swift */,
+				52BAE1486D32117D096F09540A4EDB3A /* Calendars.swift */,
+				3D77EA07C507DD45130C4E3D94FB816D /* Camera360.swift */,
+				088C97D78EACD8A369D180A485FA601C /* Chromecast.swift */,
+				9B2C2FD7CC2C123AE4677F4C9CD38FC0 /* CirclePay.swift */,
+				8DA407F245F8F3FA668AF10C2D4C479E /* Clips.swift */,
+				474608028F4D6475117FED64CA657F69 /* Cnet.swift */,
+				41774A1047335A16B618E846C501CE84 /* CNN.swift */,
+				0AB458DF7FFE2B8082A4CA3A63735D2C /* Currency.swift */,
+				52B6771E028D6215DDBAD3DB40230680 /* DailyMotion.swift */,
+				165B3D59E0760ACD0E10FAABD7DC3463 /* DayCost.swift */,
+				A1A0CF1D4C331D5B637AD3B3BEADD3AC /* DayOne.swift */,
+				237996D518754F4B443AFC4B9B899A11 /* Diigo.swift */,
+				17952B119DB228B48BFB38836313EFFF /* Documents.swift */,
+				5626B299A28E0EB942D3334180444CF2 /* Dropbox.swift */,
+				EECC32F07AFE6518D3B9E1DE21FF1569 /* Ebay.swift */,
+				054D249A64C08CE90742F2C7F0485571 /* Echofon.swift */,
+				51F73864782685E06129A69C98C2CFE8 /* Epson.swift */,
+				EE5CEAB6FBDC375C1F09DCC667EE11B1 /* Everypost.swift */,
+				3F274E3553C78F0FE29F40041B5DA2F2 /* ExternalApplication.swift */,
+				F7C36EFAB7DB4A5F99B584F00C0F3E9E /* EyeEm.swift */,
+				ABFF690823759BC63216CACA32F5B25F /* Facebook.swift */,
+				3D6D2F7845B6D99CFDD8B155ACAFD053 /* Feedly.swift */,
+				E3F6663F5DA6DC10640B195A872F2B45 /* FileApp.swift */,
+				3B89AC1A82340DBE9FF68DAEDE7266C8 /* FindFriends.swift */,
+				BBFD6984DB63EB1D7C675DD925E0F390 /* Fitbit.swift */,
+				C58DE76DE9710CB5CD8BC07C97B91E22 /* Flickr.swift */,
+				E6B9B30D39B980A274E2BC5C3B18D9FC /* Flipboard.swift */,
+				4764347428BB4BB3DD5BA647CE1E3DF8 /* FlippsTV.swift */,
+				4B2F0B889A434545E44D6CC47D5180DF /* Foursquare.swift */,
+				2B6C1D5CA285AD5BE160850F624D52EA /* FriendlySocial.swift */,
+				EB74F78BE5A6F99EB9513F2E0A624429 /* FRIL.swift */,
+				4E331521E9C18828E928C5D093293B05 /* Gallery.swift */,
+				B0E1A26C6D532DCDE1253ECA95DDF946 /* Glympse.swift */,
+				7ED4E2D3176AC69BB5A75ACE8BDDCC8C /* GoogleCalendar.swift */,
+				D4D3130FB74C93D527B5A87F6D79D7E6 /* GoogleChrome.swift */,
+				6308924BE42260CF8CE313C43BB7E634 /* GoogleDocs.swift */,
+				0636960C7F3DFC073912FD7CEB035771 /* GoogleDrive.swift */,
+				9A4BB0FEB31AD31910D9284F2727209C /* GoogleEarth.swift */,
+				585B6F5DC980265DFEC81D2923C92820 /* GoogleMail.swift */,
+				A2E2FD1863E8DC164F3AC708328518BF /* GoogleMaps.swift */,
+				CC1FDF9A3548803D84F4CE08B4D2A250 /* GooglePhotos.swift */,
+				8A967B1D2550520655A793D183EE0014 /* GooglePlus.swift */,
+				425FA9AEB48F4CC0D20475089807B144 /* GoogleSheets.swift */,
+				7411D64D34EAFFE2B062E237E1C3415D /* GoogleSlides.swift */,
+				EAFA64AEE2F5C6FBA708A5C3092675DB /* GoogleTranslate.swift */,
+				92374E8B673723B07A64411596E4413B /* GroupeMe.swift */,
+				0171D0698BE9887AA936B2FCDDDDBAA3 /* Heapo.swift */,
+				4C9A264B0B3AA39E7140922E30F4FA09 /* HootSuite.swift */,
+				72FC8847F55700EDFCEECCF4833CBF94 /* Ibooks.swift */,
+				CEBEF2A3E14D3A7C7284EDF2A36C9E8D /* IMDb.swift */,
+				25DF2C3DFC6DFA11603642B37DCE885E /* INRIXTraffic.swift */,
+				36A8A921D3126BFB254CFD5AC838815D /* Instagram.swift */,
+				0499B4C2B5F31349AFA6FCAE07B6F2A8 /* Instapaper.swift */,
+				FED5F90CE05A522DD18CE651A71338E4 /* Ishows.swift */,
+				627F1E062524A93AFC3D8F3B88BF5392 /* Itranslate.swift */,
+				11DEE7E2DC766D60228071FEB41BC25E /* ItunesU.swift */,
+				0BFF5527C735F44D0A0A58E4698C708F /* KakaoTalk.swift */,
+				06C28266C7E143B1229FF90F0EDEE25C /* Kayak.swift */,
+				F2047E1A27A3C90479AE6FEBF8973685 /* Keeper.swift */,
+				D60E6262E72CBB22C9A8689A1F7722B1 /* Kik.swift */,
+				81645BC916E64231348ABFAEF5AA1685 /* LastPass.swift */,
+				41EDA00356B88C7B4F52EAB9EBA3BF21 /* Line.swift */,
+				0A26945819F41CF99AC8BC134A7042AF /* Linkedin.swift */,
+				741EB8B648EB68B1641A021460CAFF7D /* Mail.swift */,
+				EC07DE75374A333D5F0A836AC79449CC /* Marktplaats.swift */,
+				47B51FF91AA5DFDC7CBBACF3F7CFD692 /* Marvis.swift */,
+				64915310075C6CEC982008E8D65E096F /* Meerkat.swift */,
+				47A3C1E258CB6F13A59B865FB27F58B7 /* Messages.swift */,
+				F61B159F16D6AD0215D2C0C5D3949CD4 /* MobileMouse.swift */,
+				F643AF1749220518A6E3AA0F0CFA5E1A /* Mopico.swift */,
+				5F68E741D40518DCF669D75EB2E9C5B6 /* Moves.swift */,
+				571C8054A2B729E046F0C83129F91066 /* Music.swift */,
+				9FBF79411B4CA1426C4AE47CBAB273B1 /* MyFitnessPal.swift */,
+				5C972FEE90B27153E8C81E9CB699D3DA /* NameShark.swift */,
+				634ACA2DA669FEFE14E3EADF80336B3E /* Netflix.swift */,
+				8C9CED608549B69BD3242E441A1513BB /* Notes.swift */,
+				63230DCAE14982685F19B2BBE3B22404 /* NPORadio.swift */,
+				07BE748A34FFAF93FC139709A0B11F55 /* NSExtensionContext+ApplicationCaller.swift */,
+				A7771602433B9323C035911CC01297D2 /* Nunl.swift */,
+				39F8DE1970072839AD45B258173925DD /* NYTimes.swift */,
+				04721E3CF6001EECD3DBF9C8600A0DD2 /* OMT.swift */,
+				19F38AF72D1EAEDDD9C28A0496F125C7 /* OneDrive.swift */,
+				532D99242D9E3745D3C67CAD3EFD3E31 /* OnePassword.swift */,
+				61D2751D73F665C2395F304EBA56ED7B /* Outlook.swift */,
+				FE9D33BAA4BD3DEE3E2F5A1A9F2BA6A8 /* Path.swift */,
+				CDE2B23D0421C50369E4E76A1FF7C982 /* Paypal.swift */,
+				96EA38143F768C7DB7D9E0616987C46A /* Periscope.swift */,
+				EC1EAD9AAA19D27B47CF2314CFB237BD /* Phone.swift */,
+				448E33309CFEFC09E3CF9DF312C057B2 /* PicCollage.swift */,
+				1754B50D267DB3FC1CDA99BF84D08550 /* Pinterest.swift */,
+				8412B598516339F5353EFFB760C5BF41 /* Pocket.swift */,
+				4A2555180935CA09966B4EF634B672A9 /* Quora.swift */,
+				4EB549050A7EE8B2D30D9C7AADA4F4C5 /* Radium.swift */,
+				8DEEF559C2462FF185B5CB7EC739625C /* RemindersApp.swift */,
+				42757FE3FC2DE4675E9DFEA3A205AA3C /* Remote.swift */,
+				87EDEC22C7C0FD8B5C083581478E71CA /* RIDE.swift */,
+				1245D7B0D36D3DC1EB4CD4CD1B0D3EBA /* Rijnmond.swift */,
+				AA0C60C920A68913F3DE82D9D79DD6BE /* RoboForm.swift */,
+				FEA6B212E21896B70E6E423655237030 /* RunKeeper.swift */,
+				E751870C7B0F251630BD9F924B5B4639 /* ScannerPro.swift */,
+				1B117701627704CB419FFCF59558ADBA /* Settings.swift */,
+				938641D00AD422DBE79A120710B61424 /* Simplenote.swift */,
+				743A2EE5FCA091EAC3FB24AF0E4F5248 /* Skitch.swift */,
+				3CC382C7BB08C8A74E73CED70B3CA81D /* Skype.swift */,
+				22F99D91C9B95FEA3787CB888E9160FB /* Snapchat.swift */,
+				92A72C760D7FA0911F0C44AF6B0498D0 /* Snapseed.swift */,
+				05DD85204BBA3FF5381F9A80DC780A33 /* Songpop2.swift */,
+				94B0595E3A801CBDACDD581AE39CC477 /* Sonos.swift */,
+				60387AC62C12CCEE97E4F4A7E869BC1F /* Soundflake.swift */,
+				F6B92FEB3A7A3464BE13DC85A10AB7E3 /* Spark.swift */,
+				057961B856FC4998E52DB9F466EAB973 /* SSG2.swift */,
+				E0DF0196F19E12099D2DC13D001EA650 /* StitcherRadio.swift */,
+				3B3CD7D91F3A365FE512A4991398E169 /* Strava.swift */,
+				209A724FAAEA98936CF4EAF37492EE69 /* SubwayKorea.swift */,
+				9640D694F5AE42E00CD7BAF6BF5D5454 /* SunriseCalendar.swift */,
+				E4D4832A649B6E43342C39B024BA6B17 /* Swarm.swift */,
+				02778BA56262B45F70151C766DFB4997 /* Tango.swift */,
+				DF64CED81AD1F1FB47910CEC99765E92 /* Ted.swift */,
+				E4A1DD42A44F493798AD69D9A90273EC /* Telegram.swift */,
+				CFF50A2D7A00C8C26106AF8BB95DE219 /* TestFlight.swift */,
+				151A5B07E9A3197DD3B3BBCB832BD4C5 /* Tinder.swift */,
+				130B7ACB095A4E067D93A0EA63A34F19 /* Trello.swift */,
+				9C119C12825732517A75CCA6AFAF057F /* Tubex.swift */,
+				D157E79E85EDDF042915AA75A81A45F5 /* Tumblr.swift */,
+				F7A8760B3468668559BC2A8332928474 /* Tweetbot.swift */,
+				1ABB623BB0FFDD13C311D566D6F2BFCC /* Twitter.swift */,
+				7B1A917F90B9DC791EB5B56ADE6B0729 /* Twitterrific.swift */,
+				4F32D3B58A62AEB15229E09968413935 /* Uber.swift */,
+				8EB079855F0EFE5B979DCFFD45F0486D /* UIApplication+ApplicationCaller.swift */,
+				2145D1CACE8D7695D51DA233C193832C /* Unread.swift */,
+				4EC36037517E083CA73964ED86DC92FE /* Ustream.swift */,
+				34F10F5F127F7EF72F38DA333269A3A4 /* Viber.swift */,
+				65CB0C1F89B9CC2405D481A095E583AD /* Videos.swift */,
+				B6D2B87968C8E7AF0ED79209CDFC8D69 /* Vimeo.swift */,
+				C15F53E89A5B92DD8440F848CD206725 /* Vine.swift */,
+				DA499594AA9C1F3BEB8BFA8C5E8CA7B3 /* VIPAccess.swift */,
+				C9D658E0D10F3FF3281B6B6421DA04EF /* Vox.swift */,
+				6B2C462FBC67D6955E91F54ED0EE41D5 /* Voxer.swift */,
+				65663FDEF2348691E18A0323AF4CD502 /* VSCO.swift */,
+				C39276714A0E407839FAE5A62E2D7D67 /* Waze.swift */,
+				434D17D9C8412F30B5ACFC60647617A3 /* WeChat.swift */,
+				0C90C2F846603CC6CAB7077CF5BB4181 /* Weibo.swift */,
+				1FD77A246D9269AEA179D19441090731 /* WhatsApp.swift */,
+				7E5644D2554ACBC8F8313F4320F95C50 /* Whyd.swift */,
+				C15A08BD62F7FF2F8127BCD10AC28FB8 /* Wikipanion.swift */,
+				A155DA56198917CC31A9911884BA6877 /* WordPress.swift */,
+				0C6EEADF8ED52861F3FF79A794D20AED /* YahooWeather.swift */,
+				DAF9E8796D7BBBE4F79EABC8EEC4618F /* Yammer.swift */,
+				C450973272749C2B225F88383FCA327F /* Yelp.swift */,
+				3DCF66DAF2CACFB9A7EF53E086E60E5B /* Youtube.swift */,
+				B82903A01FB361E19C8B5F9F9206BB33 /* Support Files */,
+			);
+			name = Appz;
+			path = Appz;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				93F45733C3CD1DA32E0EF439DDD2A5F8 /* Pods */,
+				1EA8BC7BD2EF701896A992C693CC8EAD /* Products */,
+				D134859B7F68955BA21616D5EF0B4786 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93F45733C3CD1DA32E0EF439DDD2A5F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3334BB106EDCD9CBE62ACB63461CD8CC /* Appz */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A67400D2519CBD6111BF4563FDAFEFCB /* Pods-weatherGuru */ = {
+			isa = PBXGroup;
+			children = (
+				D9D16B275A857BB4FEEB5F031D77F8B6 /* Info.plist */,
+				01772FE72CB68F7CEEA2DEA25B6FFFD1 /* Pods-weatherGuru.modulemap */,
+				54E6666468B2AFB9BDBA4882B8C591A6 /* Pods-weatherGuru-acknowledgements.markdown */,
+				767A26F224F7D1545E5D531E7F7A0061 /* Pods-weatherGuru-acknowledgements.plist */,
+				7380D1769D62C6B02A350E90DE464571 /* Pods-weatherGuru-dummy.m */,
+				3F3C8188134CEDE42FCCFE13ADFEE8E6 /* Pods-weatherGuru-frameworks.sh */,
+				AEAF8ED13632D6FC0C7652382CF81A40 /* Pods-weatherGuru-resources.sh */,
+				5404D1C0B29D916408F02150AA0FBF1D /* Pods-weatherGuru-umbrella.h */,
+				3909795D1E4005E101FC308759C5511A /* Pods-weatherGuru.debug.xcconfig */,
+				502C62F70C43F18F8F0CF7AD2A6EE968 /* Pods-weatherGuru.release.xcconfig */,
+			);
+			name = "Pods-weatherGuru";
+			path = "Target Support Files/Pods-weatherGuru";
+			sourceTree = "<group>";
+		};
+		B82903A01FB361E19C8B5F9F9206BB33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4801299F830BDDB1B3782A79B779948F /* Appz.modulemap */,
+				3D6153C66C2001EF1B6B3C9B22D6E685 /* Appz.xcconfig */,
+				FC0C689BE5C5BDD93FC10E7535036170 /* Appz-dummy.m */,
+				DA686289EBBC4D77F1D3D5E15FDFC8C6 /* Appz-prefix.pch */,
+				ADCD2FBA7401D04C327CC804503E3F27 /* Appz-umbrella.h */,
+				5C11DB6B9BA088D236D59F4047910C8A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Appz";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D134859B7F68955BA21616D5EF0B4786 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67400D2519CBD6111BF4563FDAFEFCB /* Pods-weatherGuru */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46A86CBFE5F73331DD2270223D195208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26066410B7262316F9AF3C8CE20DEBC1 /* Pods-weatherGuru-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B2EFB8C9D3CB81B10E2D01CF4AECCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CF46B0A3A3089AEA2470CFBB8C970 /* Appz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B06F0EAD1BB21AD1582DD2F9F81C2E2 /* Pods-weatherGuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B409CBA4F98811FD9016150676FC2C6 /* Build configuration list for PBXNativeTarget "Pods-weatherGuru" */;
+			buildPhases = (
+				DB762546C39A8C6B1750D491DC08A611 /* Sources */,
+				D71BA9B08A50C50D29E084BFC21373FF /* Frameworks */,
+				46A86CBFE5F73331DD2270223D195208 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90042D859EB597CB9EB4DBC1189208A /* PBXTargetDependency */,
+			);
+			name = "Pods-weatherGuru";
+			productName = "Pods-weatherGuru";
+			productReference = CA096EAF6C90334B09ED9BF131A8B0BF /* Pods_weatherGuru.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B6169A92EE46CEC2912B877A4563CF6 /* Appz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC30F408DAB2B565C22A597DCDAFB0E /* Build configuration list for PBXNativeTarget "Appz" */;
+			buildPhases = (
+				F5FC36A2D8D7E24142171052F79AB9C7 /* Sources */,
+				B8A8EE41E70E852BECC1440D9662CFDB /* Frameworks */,
+				B9B2EFB8C9D3CB81B10E2D01CF4AECCB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appz;
+			productName = Appz;
+			productReference = 90849EEBBD70C3201E99642E7F2A1C4C /* Appz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1EA8BC7BD2EF701896A992C693CC8EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B6169A92EE46CEC2912B877A4563CF6 /* Appz */,
+				0B06F0EAD1BB21AD1582DD2F9F81C2E2 /* Pods-weatherGuru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB762546C39A8C6B1750D491DC08A611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF5B9E1B75B6E5A7C2FA5D8A7B969B2 /* Pods-weatherGuru-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FC36A2D8D7E24142171052F79AB9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CA97B56DF837975B55C983CBC0916 /* AirLaunch.swift in Sources */,
+				8E6982FC0E07F0A6CAC31C29E6819A5D /* AliExpress.swift in Sources */,
+				204069908EC08E132622291683515AE7 /* AllCast.swift in Sources */,
+				DF44A169E82153D2B40A61F44164498C /* AppleMaps.swift in Sources */,
+				782D4730C44689047EDDC26D7FB96455 /* ApplicationCaller.swift in Sources */,
+				D7575365E53CC416D25A5C4B9C6066BE /* Applications.swift in Sources */,
+				0A8086D8CEBF077A7C1184CF20D437C2 /* AppStore.swift in Sources */,
+				9D41969055CD539242C291EB9F8D2DB6 /* Appz-dummy.m in Sources */,
+				A1274F1EF852A8DAE10A8EA860D8FBE8 /* Audible.swift in Sources */,
+				B09856B2675C7227BD367A09744EEAF5 /* BNR.swift in Sources */,
+				E91F1F90F5B40232F012BBCBCE2D05E8 /* Box.swift in Sources */,
+				BFFE9DE798D6FD77B12CD7CCAA1D32B6 /* Buzzfeed.swift in Sources */,
+				0030BB054EBEF14AD5FF75EA8B1DA8B5 /* Calendars.swift in Sources */,
+				30C466F506E885500A7E4FCCB09F73FE /* Camera360.swift in Sources */,
+				9BA10136D6058DF4380D26B5433D50AD /* Chromecast.swift in Sources */,
+				3AB094FA68AC064F2517EDC3D7D9303A /* CirclePay.swift in Sources */,
+				B7EC170325F474798227053A4C84CE24 /* Clips.swift in Sources */,
+				71E92C9B83615A33624B5C493A59C44A /* Cnet.swift in Sources */,
+				EF36F9F8F7A7F74CD870BA6F0F2BE5D4 /* CNN.swift in Sources */,
+				CB074BA3EF1BB25DF35A3D9B68124274 /* Currency.swift in Sources */,
+				950EE465C05E4CECAC66B14D76806F2B /* DailyMotion.swift in Sources */,
+				1D016CBBCA22D62AEF089A4628FE727A /* DayCost.swift in Sources */,
+				85574B5A5E0D2706F22C56C44BCE7B52 /* DayOne.swift in Sources */,
+				A8AA798F1C2B10D1D5C0A51B93CE92CA /* Diigo.swift in Sources */,
+				2378186885AA69BA861B66F7D515DEEE /* Documents.swift in Sources */,
+				737B8D92F7F1798E1AEED31B8EE39D07 /* Dropbox.swift in Sources */,
+				F60CFBA964660D9D2E522FD75CC67D3D /* Ebay.swift in Sources */,
+				2AB05460EB280E4B4C4D6FF07DAB0AA8 /* Echofon.swift in Sources */,
+				44C57F4CB772B7218A1D3A4880929771 /* Epson.swift in Sources */,
+				0C787F79022030AC2A2C32D4DAB54FE6 /* Everypost.swift in Sources */,
+				149B7C7374AC89FB1B4C1064C3D12AB2 /* ExternalApplication.swift in Sources */,
+				866DF2BF446C12AF1A684CD55FF43CD1 /* EyeEm.swift in Sources */,
+				6B3BC1F5D4658863D170CE42CCC7D514 /* Facebook.swift in Sources */,
+				55CE9F2DFD112B14A61DF99724D4DB91 /* Feedly.swift in Sources */,
+				001C1DE7F664CEB3F1E83CAD39A0A058 /* FileApp.swift in Sources */,
+				BD910AA6306A8FE5A5DCD0283CEDA938 /* FindFriends.swift in Sources */,
+				F87D0D9A42D1B0CB3EA786D7BA97A7A4 /* Fitbit.swift in Sources */,
+				7341C9A83583C6118066C08390B7D3DC /* Flickr.swift in Sources */,
+				66E508D730F5F04570B22577524BE2E5 /* Flipboard.swift in Sources */,
+				4895EFA455E349E943297A8FC93F6BE8 /* FlippsTV.swift in Sources */,
+				CDD9187883A70110F72A6897717D415A /* Foursquare.swift in Sources */,
+				75BBE555A88F6AB4949ECBA99185A3F4 /* FriendlySocial.swift in Sources */,
+				52D606B4EABA0779CCD6572068ED0899 /* FRIL.swift in Sources */,
+				8F1E8DE01AEA94A16967652248FBACB9 /* Gallery.swift in Sources */,
+				A97B2D9599A336B38AC98A0DD6E6790A /* Glympse.swift in Sources */,
+				D541DE52CA741670D2A5AA3F4E6BBC52 /* GoogleCalendar.swift in Sources */,
+				DECC11431F38F9D22A64583E2F718CA8 /* GoogleChrome.swift in Sources */,
+				18089F9830EA5DAA353DF25CE09D69D4 /* GoogleDocs.swift in Sources */,
+				28DB7D76303B5DE1CE5F3E30DBD28FE1 /* GoogleDrive.swift in Sources */,
+				DD8279B19040458660B2681E58C5AFF5 /* GoogleEarth.swift in Sources */,
+				FC63A67554E6D3A4071ABA44845AB9FE /* GoogleMail.swift in Sources */,
+				7CDA43BCDA6271D12E582762AD47423F /* GoogleMaps.swift in Sources */,
+				491C5D950C737F38F9D4C587DA82C104 /* GooglePhotos.swift in Sources */,
+				8242092235A390D1D9B7F56EF393D539 /* GooglePlus.swift in Sources */,
+				515FD9C557FA19EF45F8374E369AB45C /* GoogleSheets.swift in Sources */,
+				B56FD8D2B7D8925F41C1A7438796026E /* GoogleSlides.swift in Sources */,
+				FBF2C0CE8066C360B38AB40640558E07 /* GoogleTranslate.swift in Sources */,
+				60F2838853A80BB9A9E06606DF6CB839 /* GroupeMe.swift in Sources */,
+				F6985979C4AD9FB95B26846FE9B1A397 /* Heapo.swift in Sources */,
+				3E23667C1FEDDE0472C23F94F88BA1AA /* HootSuite.swift in Sources */,
+				3D70F1D8BF13EC97E47A26561EB3D955 /* Ibooks.swift in Sources */,
+				25742A4408A009F01D50C482BE266B96 /* IMDb.swift in Sources */,
+				E1650E63C8E5901B1BB827E5F5E1A55F /* INRIXTraffic.swift in Sources */,
+				1ABCDD28A045ECA26065D73265120EA9 /* Instagram.swift in Sources */,
+				B979B4F944BF93AA9EECBA9D1B9205DB /* Instapaper.swift in Sources */,
+				32C929A10061E19DE5B7A0C037362960 /* Ishows.swift in Sources */,
+				2263FFB15E271C2C34B223790D948CB8 /* Itranslate.swift in Sources */,
+				FF62C8E464051F5E54D4253ACAADE43E /* ItunesU.swift in Sources */,
+				3F64027F2E4843EAD9F8F65C7330040F /* KakaoTalk.swift in Sources */,
+				C69692706C45F3C3BC4CC7F21E73BC6B /* Kayak.swift in Sources */,
+				426A67428E571F40A22E0119A21F8E10 /* Keeper.swift in Sources */,
+				65E6A6B99320B031C6A0199359E7C7FF /* Kik.swift in Sources */,
+				E469C9C2319CF067DDB977B1291DD9B3 /* LastPass.swift in Sources */,
+				9D0713C53802944D5902579B34D83BCA /* Line.swift in Sources */,
+				A25A291D1A111D5D37B300F433F5FF68 /* Linkedin.swift in Sources */,
+				300A2FA3C4D61B26776B9DF615059B52 /* Mail.swift in Sources */,
+				352050A8E24A76142C3FFCDC6154029B /* Marktplaats.swift in Sources */,
+				9E47F06323F77D5FA99CA520BEA14FCD /* Marvis.swift in Sources */,
+				F87FA3CDCF6B5134CB56D1E5C8D46E2D /* Meerkat.swift in Sources */,
+				3BD8E9E7F443CE7375D691C9729A6F38 /* Messages.swift in Sources */,
+				856DA50BBE5640F1E016F2A317D0B47A /* MobileMouse.swift in Sources */,
+				2F9A1A97E16F84F8A4B83E0B7F84A46B /* Mopico.swift in Sources */,
+				7780874A377F4AE8A6352EF8903BC6D6 /* Moves.swift in Sources */,
+				B2C651A1B2DADAFC55DD4878F6F045D9 /* Music.swift in Sources */,
+				7253DC17CD64EF509BE10D895F6EF537 /* MyFitnessPal.swift in Sources */,
+				78CA471285D874A990770E3226C9235D /* NameShark.swift in Sources */,
+				DF5E16C3F344035E17110F48174A4670 /* Netflix.swift in Sources */,
+				EFABB91438C4D6330A466A03824BF896 /* Notes.swift in Sources */,
+				7915B086AE1A22F0FB24D7C0E6E08481 /* NPORadio.swift in Sources */,
+				74E6D0F02DDC2F9F6015587F2E9BACF4 /* NSExtensionContext+ApplicationCaller.swift in Sources */,
+				0B9E051B5A0225D619A840FA79E69F8E /* Nunl.swift in Sources */,
+				A66958F2026DA4F3CD220ACBD6C1CF84 /* NYTimes.swift in Sources */,
+				BEEDBF38B3C8DD532853A8BBD2434C81 /* OMT.swift in Sources */,
+				9502B8CBFBA5A85441B351A7CDC3DBED /* OneDrive.swift in Sources */,
+				C52614A16795A035943BD78F7ABF0B59 /* OnePassword.swift in Sources */,
+				99EBDB3EA431264DDD69A2A1681015EC /* Outlook.swift in Sources */,
+				7D289048770F90F31C5FFB21495AB80F /* Path.swift in Sources */,
+				8D38B28C1908BD6314E4B757498A9BAE /* Paypal.swift in Sources */,
+				85BE72D74E0FB0C2072AF18F90D58877 /* Periscope.swift in Sources */,
+				317C35455AC4F574B4BC695CE5DC4721 /* Phone.swift in Sources */,
+				2065E28C05CA80DF31D3AACBCC0CA649 /* PicCollage.swift in Sources */,
+				4B5B8CE8C3442678A4302AB6D294CD78 /* Pinterest.swift in Sources */,
+				98F1A726E431406E2CD10404C92BEF83 /* Pocket.swift in Sources */,
+				A479BEFCF3B3D8E5BDAC45E22A026A67 /* Quora.swift in Sources */,
+				1C8727898ED517C72A255ED140BBD538 /* Radium.swift in Sources */,
+				DD5F9B4FAB7118A7E20195D8377F1254 /* RemindersApp.swift in Sources */,
+				F30C8A8B0F96ECA454EAA093E079D8B0 /* Remote.swift in Sources */,
+				4EC6C8AC2C47526AE2D4FAD6AF1BD9E4 /* RIDE.swift in Sources */,
+				A770B9F08193346C4285B2951FF08ACF /* Rijnmond.swift in Sources */,
+				7326818DAE2ADC04408FC1017D97DE00 /* RoboForm.swift in Sources */,
+				6D625BDA2237AAE81295C8405164E9D7 /* RunKeeper.swift in Sources */,
+				9767188E27E46683C4E7289401B000E0 /* ScannerPro.swift in Sources */,
+				80B5669A83CD99AEB91A53C44993947D /* Settings.swift in Sources */,
+				EDDF6F6C9EF45C0F57E5097F013B146E /* Simplenote.swift in Sources */,
+				9649A26EA9CB2256922D7257149F10DC /* Skitch.swift in Sources */,
+				8E4241645EF50D0170BFCB77232763F4 /* Skype.swift in Sources */,
+				1BBE363EBBD1C10CDA624B8E6D345144 /* Snapchat.swift in Sources */,
+				42EC9BC9C6AC1C5819BB590081031E9B /* Snapseed.swift in Sources */,
+				E2343402CEB8949F45E1F39627550184 /* Songpop2.swift in Sources */,
+				FBDE2267306DEB68A7B43227C2BF3393 /* Sonos.swift in Sources */,
+				9F151D89D4AE6859795C52F838A0F4B0 /* Soundflake.swift in Sources */,
+				0B6BEBA2CFE80BD009DE54343E457CEF /* Spark.swift in Sources */,
+				561B5129DE908926716B13FE2F8510F5 /* SSG2.swift in Sources */,
+				2AFA6CDE9E0F2AF6F05784BDCB6E4B40 /* StitcherRadio.swift in Sources */,
+				318E48FF1D117C50286864AC17F8503D /* Strava.swift in Sources */,
+				1F955A70AA17819D3A24634C9FFC2C63 /* SubwayKorea.swift in Sources */,
+				1E092BE3850E1B666244322AFD62BC8F /* SunriseCalendar.swift in Sources */,
+				20BDA7DF313CB10C2D03F8E696507FDD /* Swarm.swift in Sources */,
+				C1DC8EB2EF81E7E3514E44F5BEBD9262 /* Tango.swift in Sources */,
+				1EF6378BB9C649BD084F4C181D6EBAB0 /* Ted.swift in Sources */,
+				49A24FA4FCE97F5F4C4ECF145D7F9790 /* Telegram.swift in Sources */,
+				806BAB73055498387817F12166FEB041 /* TestFlight.swift in Sources */,
+				C5B323C37E5C161D912EC531A9A6A7D0 /* Tinder.swift in Sources */,
+				19F22EA382F69FF22BC6DBB66F5DBFE8 /* Trello.swift in Sources */,
+				AC86B113DB45D541D130E33BDDAB2986 /* Tubex.swift in Sources */,
+				73038D1F723E6388647EF25868C5F11A /* Tumblr.swift in Sources */,
+				2CB033233D46FF27799418FC77C578A3 /* Tweetbot.swift in Sources */,
+				D7A1DE74077AEE2E0522CDDA13FEDA39 /* Twitter.swift in Sources */,
+				4D019E65E4E6644A3D679BC755DB98F7 /* Twitterrific.swift in Sources */,
+				67944F301A8B2BA6BD2BBC2209BBE973 /* Uber.swift in Sources */,
+				92F9FF25C2A9229D7B64653C4574143C /* UIApplication+ApplicationCaller.swift in Sources */,
+				6FABA117C2716D48F90DB8AE0FB0CC23 /* Unread.swift in Sources */,
+				C52FF64F8F016496D74649C768FB09DD /* Ustream.swift in Sources */,
+				CE7CA80441C21AE76322863CD6EDA4D5 /* Viber.swift in Sources */,
+				B5FB5CABB4AA820BF35E67761B3F3AE9 /* Videos.swift in Sources */,
+				C061F1F42B155B57CFE2512829199751 /* Vimeo.swift in Sources */,
+				EEBBE210468FD9B9ABE8DF2C88AC3A2D /* Vine.swift in Sources */,
+				D5BB704CD8574C313131306E9066EFAB /* VIPAccess.swift in Sources */,
+				19D655DE4472BED4513EB7170E2ABB33 /* Vox.swift in Sources */,
+				96B20A943F6B265F84191CD8358307A5 /* Voxer.swift in Sources */,
+				44C6F18C46BFABA9925B02F2C5545810 /* VSCO.swift in Sources */,
+				072CDE1DB212273822C15B4116186343 /* Waze.swift in Sources */,
+				F8D65E42543AEEC0F6C845BFB06612CE /* WeChat.swift in Sources */,
+				3F5A7283330ADB745CD458F58E50DC4D /* Weibo.swift in Sources */,
+				619D33EC2F6138C63D2B0B730AE0BF01 /* WhatsApp.swift in Sources */,
+				1C6CC179D7E66D293DA5CDEDC664D54E /* Whyd.swift in Sources */,
+				7E88D97D0C91DD70E600ACBE0B330640 /* Wikipanion.swift in Sources */,
+				ED3812422F7F4BF24F53B67E7DE9539E /* WordPress.swift in Sources */,
+				C32807A577924A78CC50AC85DA4BC7B2 /* YahooWeather.swift in Sources */,
+				F347980617075AD9EC694B0E06263F86 /* Yammer.swift in Sources */,
+				3FB00918FAF4F727D14131B5AE4CDAFF /* Yelp.swift in Sources */,
+				02CA53BFDC4C62DAF8FC688F7B45EA68 /* Youtube.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90042D859EB597CB9EB4DBC1189208A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Appz;
+			target = 8B6169A92EE46CEC2912B877A4563CF6 /* Appz */;
+			targetProxy = 900E9670DD6B258D7FEFDE7D1A27C86F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1CC03C419DAAFA32C803DFBD513D4E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6153C66C2001EF1B6B3C9B22D6E685 /* Appz.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Appz/Appz-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Appz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Appz/Appz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Appz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8D0454F1F3465D7538A35B7668F2BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3909795D1E4005E101FC308759C5511A /* Pods-weatherGuru.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherGuru/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherGuru/Pods-weatherGuru.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weatherGuru;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA2FF127D5557FA40029608E4EC31A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502C62F70C43F18F8F0CF7AD2A6EE968 /* Pods-weatherGuru.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherGuru/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherGuru/Pods-weatherGuru.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weatherGuru;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE8795DDADB6F40B226DFAE6EC7D77CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6153C66C2001EF1B6B3C9B22D6E685 /* Appz.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Appz/Appz-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Appz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Appz/Appz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Appz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC30F408DAB2B565C22A597DCDAFB0E /* Build configuration list for PBXNativeTarget "Appz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC03C419DAAFA32C803DFBD513D4E3D /* Debug */,
+				EE8795DDADB6F40B226DFAE6EC7D77CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B409CBA4F98811FD9016150676FC2C6 /* Build configuration list for PBXNativeTarget "Pods-weatherGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D0454F1F3465D7538A35B7668F2BD0 /* Debug */,
+				EAA2FF127D5557FA40029608E4EC31A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
